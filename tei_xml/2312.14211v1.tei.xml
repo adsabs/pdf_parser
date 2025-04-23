@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experimenting with Large Language Models and vector embeddings in NASA SciX</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-12-21">21 Dec 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Sergi</forename><surname>Blanco-Cuaresma</surname></persName>
+							<email>sblancocuaresma@cfa.harvard.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratoire de Recherche en Neuroimagerie</orgName>
+								<orgName type="institution" key="instit1">University Hospital (CHUV)</orgName>
+								<orgName type="institution" key="instit2">University of Lausanne (UNIL)</orgName>
+								<address>
+									<settlement>Lausanne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ioana</forename><surname>Ciucȃ</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Research School of Astronomy &amp; Astrophysics</orgName>
+								<orgName type="institution">Australian National University</orgName>
+								<address>
+									<postCode>2611</postCode>
+									<settlement>Canberra</settlement>
+									<region>ACT</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">School of Computing</orgName>
+								<orgName type="institution">Australian National University</orgName>
+								<address>
+									<postCode>2601</postCode>
+									<settlement>Canberra</settlement>
+									<region>ACT</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="laboratory">ARC Centre of Excellence for All Sky Astrophysics in</orgName>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Dimensions (ASTRO 3D)</orgName>
+								<address>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alberto</forename><surname>Accomazzi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Kurtz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Edwin</forename><forename type="middle">A</forename><surname>Henneken</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kelly</forename><forename type="middle">E</forename><surname>Lockhart</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Felix</forename><surname>Grezes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Allen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Golnaz</forename><surname>Shapurian</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Carolyn</forename><forename type="middle">S</forename><surname>Grant</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Donna</forename><forename type="middle">M</forename><surname>Thompson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Timothy</forename><forename type="middle">W</forename><surname>Hostetler</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><forename type="middle">R</forename><surname>Templeton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shinyi</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jennifer</forename><surname>Koch</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Taylor</forename><surname>Jacovich</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Chivvis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fernanda</forename><surname>De Macedo Alves</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jean-Claude</forename><surname>Paquin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jennifer</forename><surname>Bartlett</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mugdha</forename><surname>Polimera</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stephanie</forename><surname>Jarmak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Harvard-Smithsonian Center for Astrophysics</orgName>
+								<address>
+									<addrLine>60 Garden Street</addrLine>
+									<postCode>02138</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Experimenting with Large Language Models and vector embeddings in NASA SciX</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-12-21">21 Dec 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6E02E789C3B8125320B0A7AA52473AA2</idno>
+					<idno type="arXiv">arXiv:2312.14211v1[cs.CL]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-04-23T18:06+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.8.1-77-g92ea31edc</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Open-source Large Language Models enable projects such as NASA SciX (i.e., NASA ADS) to think out of the box and try alternative approaches for information retrieval and data augmentation, while respecting data copyright and users' privacy. However, when large language models are directly prompted with questions without any context, they are prone to hallucination. At NASA SciX we have developed an experiment where we created semantic vectors for our large collection of abstracts and full-text content, and we designed a prompt system to ask questions using contextual chunks from our system. Based on a non-systematic human evaluation, the experiment shows a lower degree of hallucination and better responses when using Retrieval Augmented Generation. Further exploration is required to design new features and data augmentation processes at NASA SciX that leverages this technology while respecting the high level of trust and quality that the project holds.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>NASA SciX 1 is a digital library and search engine that provides access to a vast collection of scientific literature covering fields such as Earth Science, Planetary Science, Heliophysics and Astrophysics (created by the Astrophysics Data System<ref type="foot" target="#foot_1">foot_1</ref> ; <ref type="bibr" target="#b2">Kurtz et al. 2000)</ref>. Within this project, Open-source Large Language Models (LLMs) offer the opportunity to think creatively and explore alternative methods for information retrieval and data augmentation while ensuring the protection of data copyright and users' privacy. However, when these models are directly presented with questions lacking context, they become susceptible to generating inaccurate or fictional responses (hallucinations). To address this issue, we have been experimenting with open-source (7-13 billion parameters) LLMs and our large corpus of scientific articles. This experimentation led us to build a highly customizable internal web interface and a RESTful API to easily interact with LLMs. The web interface allows users to have quick conversations with the deployed LLMs, and rapidly assess the quality of their response. On the other hand, the API enabled the NASA SciX team to develop pipelines that automatically make use of LLM capabilities for data enrichment and information extraction tasks. In this article, we will focus on our experience using LLMs to produce reasonable responses to user requests in a conversation style setup.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Retrieval Augmented Generation</head><p>One of the most common use cases of LLMs (popularized thanks to OpenAI's chatGPT) are chat sessions where the user provides instructions and the LLM generates a response back. If the user asks a question, the LLM will generate a response that is based on the data seeing during its training. For instance, if the user asks "What is the age of the universe?", most LLMs generate a response in line with "The estimated age of the universe is 13.8 billion years old.". However, LLMs will generate a response even if it was never trained with data that contained a response to the submitted questions. One recurrent question that we used in our experiments was "What is iSpec?". iSpec is a stellar spectroscopy tool <ref type="bibr" target="#b1">(Blanco-Cuaresma et al. 2014;</ref><ref type="bibr" target="#b0">Blanco-Cuaresma 2019)</ref>, and the information about this software might represent a statistically tiny fraction of the training data (or it could even be completely absent). Hence, most of the tested LLMs generate an answer that does not match reality (e.g., claiming that is a tool used in a domain that is not astrophysics). In order to minimize the risk of this kind of hallucination, we implemented the Retrieval Augmented Generation (RAG) technique, where we feed the model not only the user's question but also relevant text snippets from the scientific literature to generate a more grounded response. This way, the LLM does not rely uniquely on the knowledge acquired during training, but it can use new content that is useful to generate a response for the user.</p><p>After experimenting with multiple strategies, the prompt that worked best for most LLMs consisted of an initial system message where we provide a general contextual description of the role of the LLM (fundamentally, it is a helpful assistant interacting with a user), followed by the original user request and a set of interactions between the assistant (i.e., the LLM) and that user. These interactions were not really generated by the LLM, but we simulated them and feed them to the LLM. This way we can build an interaction that contains the textual snippets that the LLM can use to generate its final answer to the original user request. This is an example of the full prompt that we would provide to the LLM (in this case with just one snippet):</p><p>&lt;|system|&gt; This is a system prompt, you are a helpful assistant. Please answer truthfully and logically. If you don't know or aren't sure about something, say so clearly.&lt;/s&gt; &lt;|user|&gt;what is iSpec?&lt;/s&gt; &lt;|assistant|&gt;Can you provide me with some snippets from the literature to answer?&lt;/s&gt; &lt;|user|&gt;An increasing number of high-resolution stellar spectra is available today thanks to many past and ongoing extensive spectroscopic surveys. Consequently, the scientific community needs automatic...&lt;/s&gt; &lt;|assistant|&gt;Ok, do you have anything else?&lt;/s&gt; &lt;|user|&gt;This is all I found in the literature.&lt;/s&gt; &lt;|assistant|&gt;Awesome! I am ready to respond in a concise way.&lt;/a&gt; &lt;|user|&gt;Great! Go ahead!&lt;/s&gt; &lt;|assistant|&gt; The LLM receives the above prompt, and it generates a response by predicting the next token until a certain stop token is emitted, which signals the end of the response. We tested this strategy with a long list of open-source LLMs from 7 to 13 billion parameters, and based on our very subjective impression, we found Zephyr <ref type="bibr" target="#b3">(Tunstall et al. 2023</ref>) to be one of the best 7 billion parameters model (as of November 2023).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Finding Relevant Snippets</head><p>The hardest part of implementing RAG is developing a system that allows to identify what are the most relevant text snippets to provide to the LLM. If the selected snippets contain misleading information or are not strictly related to the user's request, then the generated response is going to have a lower quality and it will not satisfy the user's needs. We implemented two different approaches to identify relevant text snippets.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">The traditional NASA SciX search approach</head><p>NASA SciX search engine has been fine-tuned to serve the scientific community. It allows scientist to query the literature using extremely well curated metadata, textual matches, acronym expansion and synonyms (among other features). The corpus contains more than 20M entries, and it can be queried in an automatic way using an API. To take advantage of all this power, we decided to use a LLM to translate the user question into a request compatible with the NASA SciX search engine. This strategy allows us to retrieve the abstracts of the most relevant recent refereed articles.</p><p>To successfully translate user requests to valid NASA SciX request, we followed a similar strategy as described above. We provide the LLM with a system instruction that set the scene, describing the interaction between a user and an assistant that is an expert librarian who receive questions and response back with the best valid NASA SciX request to find answers. Then, we simulate a conversation where a user has already submitted multiple questions, and the assistant has built valid queries. Finally, we add the current user request and we let the LLM complete the dialog: &lt;|system|&gt; You are an expert librarian in creating structured queries to be submitted to NASA SciX. The system accepts queries using the Apache Solr search syntax. Available search fields include "author", "abs", and "year".&lt;/s&gt; &lt;|user|&gt;What was written by Michael Kurtz in 2016?&lt;/s&gt; &lt;|assistant|&gt;((author:"Kurtz, Michael") AND (year:2016))&lt;/s&gt; &lt;|user|&gt;What are blackholes?&lt;/s&gt; &lt;|assistant|&gt;(abs:(black holes))&lt;/s&gt; &lt;|user|&gt;what is iSpec?&lt;/s&gt; &lt;|assistant|&gt; However, despite the detailed instruction and the provided examples, the LLM may end up generating queries that are invalid or it would add superfluous text such as "Sure! Here is your query:". To avoid this problem, we imposed that the picked tokens should comply with a predefined grammar that is compatible with the NASA SciX service. Once the natural language question to NASA SciX query translation is completed, we used the NASA SciX API to issue a search and retrieving the abstracts from the top N results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">The modern Semantic Search approach</head><p>We went through all the indexed open access articles in the NASA SciX corpus, segmented the full-text content into small paragraphs, computed semantic vectors (i.e., embeddings) for each paragraph using the BAAI/bge-small-en model <ref type="bibr" target="#b4">(Xiao et al. 2023)</ref> and ingested them into a PostgreSQL database. Then, user's requests can also be transformed into a vector and, thanks to the pg_vector extension, we can find what embeddings are closer, thus retrieving semantically relevant paragraphs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p>Implementing a internal web interface and API to easily interact with open-source LLMs has helped the NASA SciX team to better understand the limits and potential use cases of these models. In particular, we have seen how following the RAG approach offers substantial benefits such as being able to list the concrete sources uses to generate a response and reduce the number of hallucinations by only relying on abstracts. Additionally, we observed that the use of full-text snippets improves the overall quality of the generated responses, making them more detailed and specific.</p><p>It is important to highlight that the results presented here are part of an internal NASA SciX experiment aimed at exploring the use of LLMs within the project. The developed web interface and services are not intended to be deployed openly to the general public. We recognize that there are costs and risks associated to openly offering a service of this characteristics. For example, currently the model utilizes one GPU, and it can only answer one request at a time. Allowing multiple parallel requests would require having at our disposal a larger number of GPUs. However, this experiment has been key to explore how NASA SciX could better serve its users by relying on LLMs for tasks such as data enrichment, classification, and knowledge extraction.</p></div>			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>https://www.scixplorer.org/</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1"><p>https://ui.adsabs.harvard.edu</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Blanco-Cuaresma</surname></persName>
+		</author>
+		<idno>1902.09558</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MNRAS</title>
+		<imprint>
+			<biblScope unit="volume">486</biblScope>
+			<date type="published" when="2019">2019. 2075</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Blanco-Cuaresma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Soubiran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Heiter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jofré</surname></persName>
+		</author>
+		<idno>111. 1407.2608</idno>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">569</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kurtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Eichhorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Accomazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Watson</surname></persName>
+		</author>
+		<idno>astro-ph/0002104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astronomy and Astrophysics Supplement</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Direct distillation of lm alignment</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tunstall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Beeching</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rajani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rasul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Belkada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Von Werra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fourrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Habib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sarrazin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Sanseviero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wolf</surname></persName>
+		</author>
+		<idno>2310.16944</idno>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+			<pubPlace>Zephyr</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">C-pack: Packaged resources to advance general chinese embedding</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Muennighoff</surname></persName>
+		</author>
+		<idno>2309.07597</idno>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

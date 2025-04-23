@@ -1,0 +1,1658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Estimate of water and hydroxyl abundance on asteroid (16) Psyche from JWST data</title>
+				<funder ref="#_Wnt42sY">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder ref="#_pfNE5vP">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-07-18">July 18, 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Jarmak</surname></persName>
+							<idno type="ORCID">0000-0002-0786-7307</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Southwest Research Institute San Antonio</orgName>
+								<address>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Harvard &amp; Smithsonian | Center for Astrophysics Cambridge</orgName>
+								<address>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tracy</forename><forename type="middle">M</forename><surname>Becker</surname></persName>
+							<idno type="ORCID">0000-0003-3356-1368</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Southwest Research Institute San Antonio</orgName>
+								<address>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Charles</forename><forename type="middle">E</forename><surname>Woodward</surname></persName>
+							<idno type="ORCID">0000-0001-6567-627X</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Minnesota Institute for Astrophysics</orgName>
+								<orgName type="institution">University of Minnesota Twin Cities Twin Cities</orgName>
+								<address>
+									<postCode>55455</postCode>
+									<region>MN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Casey</forename><forename type="middle">I</forename><surname>Hon</surname></persName>
+							<idno type="ORCID">0000-0001-6294-4523</idno>
+							<affiliation key="aff3">
+								<orgName type="institution">NASA Goddard Space Flight Center Greenbelt</orgName>
+								<address>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrew</forename><forename type="middle">S</forename><surname>Ri</surname></persName>
+							<idno type="ORCID">0000-0002-0717-0462</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Zoe</forename><forename type="middle">A</forename><surname>Landsman</surname></persName>
+							<idno type="ORCID">0000-0001-9470-150X</idno>
+							<affiliation key="aff5">
+								<orgName type="institution">NASA AMES Research Center Mountainview</orgName>
+								<address>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="institution">University of Central Florida Orlando</orgName>
+								<address>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sav</forename><surname>Cambioni</surname></persName>
+							<idno type="ORCID">0000-0002-1706-6255</idno>
+							<affiliation key="aff7">
+								<orgName type="institution">Massachusetts Institute of Technology Cambridge</orgName>
+								<address>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tho</forename><forename type="middle">G</forename><surname>Müller</surname></persName>
+							<idno type="ORCID">0000-0003-4008-1098</idno>
+							<affiliation key="aff8">
+								<orgName type="department">Max-Planck Institute for Extraterresetrial Physics Garching</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Driss</forename><surname>Takir</surname></persName>
+							<idno type="ORCID">0000-0003-4942-2741</idno>
+							<affiliation key="aff9">
+								<orgName type="institution">NASA Johnson Space Center Houston</orgName>
+								<address>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kurt</forename><forename type="middle">D</forename><surname>Retherford</surname></persName>
+							<idno type="ORCID">0000-0001-9470-150X</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Southwest Research Institute San Antonio</orgName>
+								<address>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anicia</forename><surname>Arredondo</surname></persName>
+							<idno type="ORCID">0000-0002-1706-6255</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Southwest Research Institute San Antonio</orgName>
+								<address>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Linda</forename><forename type="middle">T</forename><surname>Elkins-Tanton</surname></persName>
+							<idno type="ORCID">0000-0003-4008-1098</idno>
+							<affiliation key="aff10">
+								<orgName type="institution">Arizona State University Tempe</orgName>
+								<address>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Estimate of water and hydroxyl abundance on asteroid (16) Psyche from JWST data</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-07-18">July 18, 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C8826F166CDEACBE98E49C38A3DD82DE</idno>
+					<idno type="arXiv">arXiv:2407.12162v1[astro-ph.EP]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2-SNAPSHOT" ident="GROBID" when="2025-04-23T18:06+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">0.8.1-77-g92ea31edc</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Asteroids (72)</term>
+					<term>Infrared spectroscopy (2285)</term>
+					<term>Surface composition (2115)</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Our understanding of Solar System evolution is closely tied to interpretations of asteroid composition, particularly the M-class asteroids. These asteroids were initially thought to be the exposed cores of differentiated planetesimals, a hypothesis based on their spectral similarity to iron meteorites. However, recent astronomical observations have revealed hydration on their surface through the detection of 3-µm absorption features associated with OH and potentially H 2 O. We present evidence of hydration due mainly to OH on asteroid (16) Psyche, the largest M-class asteroid, using data from the James Webb Space Telescope (JWST) spanning 1.1 -6.63 µm. Our observations include two detections of the full 3-µm feature associated with OH and H 2 O resembling those found in CY-, CH-, and CB-type carbonaceous chondrites, and no 6-µm feature uniquely associated with H 2 O across two observations. We observe 3-µm depths of between 4.3 and 6% across two observations, values consistent with hydrogen abundance</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>1. INTRODUCTION ( <ref type="formula">16</ref>) Psyche (hereafter Psyche) is the largest M-class asteroid in the Tholen taxonomy <ref type="bibr" target="#b56">(Tholen 1984)</ref>. This class of asteroids has long been believed to include the remnant metallic cores of large, differentiated asteroids exposed through a series of collisions that stripped off their mantles e.g., <ref type="bibr" target="#b11">Chapman &amp; Salisbury (1973)</ref>, <ref type="bibr" target="#b13">Cloutis et al. (1990)</ref>, and <ref type="bibr" target="#b48">Sarid et al. (2015)</ref>. They are also thought to include the parent bodies of the iron meteorites <ref type="bibr" target="#b6">(Bell et al. 1989)</ref>. Observations supporting a metallic composition for Psyche are its high radar albedo (0.34 ± 0.08; <ref type="bibr" target="#b49">Shepard et al. (2021)</ref>), bulk density potentially higher than expected from a solar abundance of iron and rocky forming elements (4.0 ± 0.2 g/cm 3 ; <ref type="bibr" target="#b49">Shepard et al. (2021)</ref>), spectral matches to pure iron and iron meteorites e.g., <ref type="bibr" target="#b22">Fornasier et al. (2010)</ref>, <ref type="bibr" target="#b5">Becker et al. (2020)</ref>, metal content of no less than 20% as inferred from millimeter wavelength data <ref type="bibr" target="#b18">(de Kleer et al. 2021)</ref>, and mid-infrared (MIR) spectroscopy from <ref type="bibr">Arredondo et al. (2024a)</ref> indicating a lack of strong spectral features consistent with a metal/oxide surface. The evidence that Psyche is metal-rich and could be the exposed iron core of a differentiated asteroid has generated significant community interest culminating in the Psyche mission that launched October 2023 with an expected arrival date of August 2029 e.g., <ref type="bibr" target="#b19">Dibb et al. (2023)</ref>.</p><p>However, there is also evidence that challenges this view. M-class asteroids, while consistent with iron meteorites due to their lack of features in the vis-NIR wavelength range used in the Tholen taxonomy, are also consistent with enstatite chondrites that are similarly featureless in these wavelengths. Additionally, Psyche's density measurements have varied widely over the years, and recent estimates suggest a density of 3.88 ± 0.25 g/cm 3 (Siltala &amp; Granvik 2020), which if towards the lower end, would be similar to that of Vesta, a non-metallic asteroid. This raises doubts about Psyche being predominantly metallic (&gt; 50%), as achieving such a low density would require an unrealistically high macroporosity, unlikely for an object of Psyche's size without evidence of a massive asteroid family that would result from its breakup and reaccumulation <ref type="bibr" target="#b17">(Davis et al. 1999)</ref>, <ref type="bibr" target="#b2">(Avdellidou et al. 2018)</ref>. Additionally, spectral features attributed to silicate minerals have also been detected on Psyche and other M-class asteroids e.g., <ref type="bibr" target="#b25">Hardersen et al. (2011)</ref>, <ref type="bibr" target="#b47">Sanchez et al. (2017)</ref>, <ref type="bibr" target="#b35">Landsman et al. (2018)</ref>, and references therein. Thermal inertia values derived from disk-integrated mid-infrared data (125 ± 40 J s 1/2 K -1 m -2 <ref type="bibr" target="#b37">(Matter et al. 2013)</ref>; 5 -25 J s 1/2 K -1 m -2 <ref type="bibr" target="#b35">(Landsman et al. 2018)</ref>; 20 -80 J s 1/2 K -1 m -2 <ref type="bibr" target="#b41">(Racero et al. 2022</ref>)) are at the lower end of what is expected for a powdered metal regolith (e.g, &lt; 450 J s 1/2 K -1 m -2 , <ref type="bibr" target="#b15">(Crane et al. 2013)</ref>) and suggest the presence of at least some silicates. <ref type="bibr" target="#b10">Cambioni et al. (2022)</ref> found that the thermal inertia across Psyche's surface was 25 -600 s 1/2 K -1 m -2 based on spatially-resolved millimeter wavelength data, with most of Psyche's surface thermal inertia falling in the 150 -300 J s 1/2 K -1 m -2 range and dielectric constant (proxy for metal content) in the 15-25 range, also consistent with a heterogeneous surface in terms of metal content.</p><p>Near-infrared (NIR) surveys of M-class asteroids <ref type="bibr" target="#b30">(Jones et al. (1990)</ref>, <ref type="bibr" target="#b42">Rivkin et al. (1995)</ref>, <ref type="bibr" target="#b44">Rivkin et al. (2000)</ref>, <ref type="bibr" target="#b34">Landsman et al. (2015)</ref>, <ref type="bibr" target="#b57">Usui et al. (2019)</ref>) detected 3-µm spectral absorption features attributed to hydrated silicates on ∼35% of known M-class asteroids. Interestingly, Psyche was one of the only two large (D &gt; 65 km) M-class asteroids in the <ref type="bibr" target="#b44">Rivkin et al. (2000)</ref> study for which they did not detect a 3-µm band, though the uncertainties on these spectrophotometric measurements precluded the detection of weak absorption features. Later high-resolution spectral observations by <ref type="bibr" target="#b54">Takir et al. (2017)</ref> reported the detection of a shallow 3-µm feature on Psyche with apparent rotational variability. This feature is difficult to detect and impossible to characterize fully from Earth-based telescopes due to atmospheric water absorptions blocking a part of the 3-µm feature.</p><p>The AKARI spacecraft did not detect a 3-µm feature but also concluded the shallow feature reported by <ref type="bibr" target="#b54">Takir et al. (2017)</ref> would be below their detection limit <ref type="bibr" target="#b57">(Usui et al. 2019)</ref>. The detection of a 3-µm feature implies the presence of hydroxyl (OH) or water-bearing minerals, depending on the precise center and shape of the band <ref type="bibr" target="#b52">(Takir &amp; Emery 2012)</ref>, <ref type="bibr" target="#b43">(Rivkin et al. 2018)</ref>. A more unambiguous detection of H 2 O would come from detecting the H 2 O 6-µm fundamental bending mode emission feature. This 6-µm feature was used to detect widespread molecular water on the Moon <ref type="bibr" target="#b28">(Honniball et al. 2021</ref>) and recently on asteroids <ref type="bibr" target="#b1">(Arredondo et al. 2024b)</ref>.</p><p>The presence and strength of either of these features might be linked to several possible formation and evolutionary history scenarios for the Solar System. Assessing the abundance of hydration products present on Psyche provides important context for the amount of volatiles that the largest planetesimals could retain during their formation and differentiation in the early solar system and thus whether impacts of differentiated planetesimals onto the early Earth should be considered an important source of water. Hydrous materials, whether water-or OH-bearing minerals or the ices themselves, may be remnants of planetesimal formation or they could be later and even recent additions from impacts. <ref type="bibr" target="#b7">Bierson et al. (2022)</ref> found that water ice is not stable at any latitude on Psyche, and therefore any detected water is most likely in the form of water-bearing minerals. The two competing hypotheses for Psyche's hydrated surface are either exogenous sources via C-complex asteroids in the neighborhood of Psyche e.g., <ref type="bibr" target="#b2">(Avdellidou et al. 2018)</ref>, or that Psyche formed in the outer solar system and retained hydrated materials upon differentiation e.g., <ref type="bibr" target="#b21">Elkins-Tanton et al. (2022)</ref>. The recently-launched Psyche mission will obtain elemental, space physics, and multispectral imaging data with high spatial resolution at the asteroid, but does not have spectral capabilities beyond 1.1 µm. Complementary measurements from other facilities are thus necessary to comprehensively understand the abundance and nature of hydrated minerals on Psyche's surface.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">METHODS</head><p>We observed Psyche with the James Webb Space Telescope (JWST) using the Near Infrared Spectrograph (NIRSpec) and Mid-Infrared Instrument (MIRI) instruments to fully characterize the 3-µm absorption feature associated with OH/H 2 O, and to identify whether the 6-µm emission feature associated with H 2 O is present. We obtained two sets of observations for each instrument to assess the variability of these features with the NIRSpec observations each on March 5 2023, and the MIRI observations on March 20 and 27, 2023. During these observations, Psyche was nearly pole-on (aspect angle 24°) with observations covering the north pole region (Figure <ref type="figure" target="#fig_0">1</ref>). We show the spectrum acquired with the NIRSpec and MIRI instruments, featuring scattered sunlight and thermal emission from the asteroid, in Figure <ref type="figure" target="#fig_1">2</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Observations and Data Reduction</head><p>We used JWST's NIRSpec and MIRI instruments to observe Psyche (program ID 1731) in March 2023. The NIRSpec Integral Field Unit observations produced two data sets with the first observation beginning March 5 2023 02:21:33 UT and the second observation beginning March 5 2023 03:15:10 UT using the G140H/F100LP, G235H/F170LP, and G395H/F290LP modes, each with a total effective exposure time of 128.84 s. The MIRI Integral Field Unit observations also produced two data sets, with the first observation starting March 20 2023 22:51:59 UT and the second observation starting March 26 20:39:46 UT using all four spectral channels of the MRS (and corresponding sub-bands) with an exposure time of 632.71 s. The target saturated in Channels 2 through 4 and improving the correspondingly degraded data quality to carry out spectral feature analysis requires effort beyond the scope of our program goals. The proposed MIRI observations included Channel 1 (B = MED) data only and given that a 6-µm feature would be entirely detectable within Channel 1 (expected centers are 6.04 -6.12 µm with widths of 0.1 -0.55 µm, see Figure <ref type="figure" target="#fig_1">2</ref>  <ref type="bibr" target="#b27">(Honniball et al. 2022</ref>)) we therefore focus only on analysis of Channel 1 observations. Uncalibrated (level-0) PID 1731 data products (_ucal files) were retrieved from the Mikulski Archive for Space Telescopes and reprocessed with JWST Science Calibration Pipeline calibration versions (CAL_VER) v1.11.3 and v1.14.3 for the NIRSpec IFU and MIRI MRS IFU data respectively. The MRS data were locally processed with Calibration Reference Data System (CRDS) file CRDS_CTX jwst_1241.pmap, while the NIRSpec data used CRDS_CTX jwst_1106.pmap. In Stage 2 of the pipeline (Spec2Pipeline), the NIRSpec rate files where de-stripped (suppressing the vertical stripes in the frames from 1/f noise) and background subtraction was achieved using rate_combinedbackground files generated from the background data model using the four off-source background observations for each grating. The final NIRSpec IFU spectral cubes (_s3d file) were then generated in Stage3 of the pipeline (Spec3Pipeline) using the _cal files generated in Stage2 sorted into proper association files (_asn.json) for NRS1 and NRS2, where the outlier_detection and master_background steps were both skipped. The MRS IFU data were processed in a similar fashion, where generation of the rate files from the level_0 in the Detector1Pipeline stage invoked a jump.three_group_rejection_threshold = 100 (useful for very bright targets and short ramp times) and jump.find_showers = "True". In the subsequent MRS pipeline processing the background subtraction was performed in a pixel-by-pixel fashion<ref type="foot" target="#foot_0">foot_0</ref> , and in the MRS Spec3Pipeline call outlier_detection was set to "True", with an outlier_detection.kernal_size = "11 1", and an outlier_detection.threshold_percent = 99.5. For both NIRSpec and the MRS the IFU Cube Build parameter, cube_build.weighting = "drizzle". Asteroid spectra were extracted from each final spectralspatial data cube which were "drilled" along the cubes spectral axis using 1" effective circular aperture centered on the photocenter of asteroid. In the case of the NIRSpec data, spectra were sigma clipped to suppress residual "hot-pixels".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.1.">NIRSpec Reflectance Spectrum</head><p>We produced the reflectance spectrum by dividing the calibrated NIRSpec data by the solar spectrum obtained from the Planetary Spectrum Generator (PSG) using conditions matching the observations. The NIRSpec data also extend far enough into the infrared to be affected by thermal emission. We applied a tailored version of the Standard Thermal Model as established by <ref type="bibr" target="#b36">Lebofsky et al. (1986)</ref> modified with some features from the Near Earth Asteroid Thermal Model (NEATM; Harris (1998)) to correct for the effect of thermal emission across the NIRSpec data (1.10 -5.23 µm). The thermal model differs from the NEATM in that it does not account for night-side thermal emission, which may be neglected for phase angles as low as those of our observations (13.8 -16.9 • ) and has been applied previously in <ref type="bibr" target="#b45">Rivkin et al. (2022)</ref> and <ref type="bibr" target="#b46">Rivkin et al. (2023)</ref>. The model integrates various parameters including physical attributes such as radius, albedo, and emissivity, alongside observational parameters like the distances to the Sun and Earth, and the phase angle. The only free parameter of the model was the "beaming parameter" (η), a variable that encapsulates multiple factors influencing the asteroid's temperature. Determining the correct η value is critical as it directly influences the extent of thermal flux removal, with each value suggesting a specific continuum behavior. We note, however, that the peak of Psyche's thermal emission is well beyond 6 µm, and therefore thermal flux removal cannot create a false absorption feature contained within the bounds of the datasets. We assumed a linear continuum and iteratively adjusted η values until finding one that aligned with the expected 3.75 µm reflectance ratio (η = 0.8) using extrapolated data from shorter wavelengths without a thermal flux contribution. The thermally corrected reflectance spectrum is shown in Figure <ref type="figure" target="#fig_2">3</ref>. Psyche's reflectance spectra from JWST NIRSpec observations. The data in black correspond to observation 1 and in red to observation 2. We omitted observation 1 G235H/F170LP mode data beyond 2.9 µm due to likely instrumental contamination.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.2.">MIRI Emission Spectrum</head><p>We calculated Psyche's thermal emission for the MIRI dataset via a thermophysical model (TPM) code <ref type="bibr" target="#b32">(Lagerros 1996)</ref>, <ref type="bibr" target="#b32">(Lagerros 1997)</ref>, <ref type="bibr" target="#b33">(Lagerros 1998)</ref>, <ref type="bibr" target="#b38">(Mueller &amp; Lagerros 1998)</ref>, and <ref type="bibr" target="#b39">(Müller &amp; Lagerros 2002)</ref>. We used the latest available spin-shape solution <ref type="bibr" target="#b49">(Shepard et al. 2021)</ref> which is based on a wide range of radar measurements, plane-of-sky ALMA imaging, and adaptive optics images from Keck and the VLT. For the surface temperature calculations and the flux predictions, we used true solar insolation and JWST observing geometry for the two different MIRI epochs. Critical thermophysical properties like surface emissivity, thermal inertia or roughness are all based on a detailed TPM study <ref type="bibr" target="#b41">(Racero et al. 2022</ref>) which allowed us to interpret a wide range of thermal-IR measurements taken during the last 40 years. From that study, we took the best-fit thermal inertia of 50 s 1/2 K -1 m -2 and a low level of surface roughness for the interpretation of the MIRI measurements. We generated the solar spectrum for the MIRI observations in PSG as well and corrected for solar flux contributions by subtracting the solar flux from the total observed flux (∼0.02 Jy near 6 µm corresponding to ∼2% of the total flux). We then divided this solar subtracted MIRI flux by the TPM to produce the MIRI emission spectrum. We then fit a line using data from 5.75 -5.90 µm and 6.1 -6.33 µm to detrend the data. To increase the signal-to-noise while retaining sufficient resolution to assess the presence of a 6-µm feature with an expected width of ∼100 nm we binned the data to 20 nm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.3.">Near-Infrared Observations of Psyche</head><p>After producing the NIRSpec reflectance spectrum, we split the NIRSpec observations into wavelength ranges of 1.10 -1.35 µm, 1.48 -2.35 µm, 2.48 -3.95 µm, and 4.23 -5.23 µm. These ranges represent the continuously available NIRSpec data (i.e., without gaps) over which we could fit a linear continuum to produce a normalized reflectance spectrum for each range. We note that the NIRSpec data begin at ∼1 µm, but we selected a cutoff of 1.1 µm as we believe the 1.0 -1.1 µm range is dominated by instrumental effects. We divided each of these wavelength ranges by separate fit linear continuums to produce normalized reflectance spectra to identify absorption features. We first fit a continuum using only portions of the beginning and end of the wavelength range, then once we identified potential spectral features we fit a new continuum over the entire wavelength range with those spectra features masked. We binned the data between 1 and 20 nm depending on the data resolution prior to fitting a gaussian to any identified features. We also omitted G235H/F170LP mode data beyond 2.9 µm for observation 1 as these data appeared to be dominated by a potential instrumental effect with flux values largely inconsistent with the G395H data from the same observation and G235H data from observation 2. The resulting normalized reflectance spectra and corresponding spectra binned to 10 nm for each wavelength range are shown in Figure <ref type="figure" target="#fig_3">4</ref>. Psyche's reflectance spectra from JWST NIRSpec observations. The data in black correspond to observation 1 and in red to observation 2. The darker points correspond to the binned data used to assess spectral feature properties. We omitted observation 1 G235H/F170LP mode data beyond 2.9 µm due to likely instrumental contamination.</p><p>We measured the band depth of the 3-µm feature in two ways. First, we applied a gaussian fit to the 3-µm region. Second, we took the centroid of the flux between 2.7 and 3.1 µm and estimated the band strength by taking the mean of the observed flux at the estimated band center subtracted from the the mean continuum flux at the estimated band center. Third, we set the band center as the minimum value of the data binned to a wavelength of 10 nm and measured the band depth as the observed minimum flux subtracted from the mean continuum flux at this band center. For observation 1 this was repeated with the spike between 2.87 and 2.91 µm excluded from the analysis. The results of these various methods are in Table <ref type="table" target="#tab_0">1</ref> 2.1.4. Mid-Infrared Observations of Psyche</p><p>We subtracted the solar contribution from the MIRI data and then binned the data to a wavelength resolution of 20 nm. We then divided the data by a spin-shape thermophysical model and fit a line that masked the 6-µm feature region (5.9 -6.1 µm) and longward of 6.33 µm to remove the continuum and produce a normalized emission spectrum. We then fit a Gaussian to the data in the 6-µm feature region and calculated the standard deviation around the feature region to report an upper limit on the detectable amount of water potentially present.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">RESULTS</head><p>The principal objective of this study is to investigate the presence of 3 and 6-µm features on Psyche's surface to evaluate the corresponding abundance and heterogeneity of hydration across Psyche's surface. Alongside this main goal, we have also mapped additional spectral features detailed in Table <ref type="table" target="#tab_1">2</ref>. In the following sections, we describe our approach for identifying and characterizing spectral features from the NIRSpec and MIRI observations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">3-µm Feature</head><p>We observed a 3-µm feature associated with OH, and potentially H 2 O, in each observation and applied a Gaussian fit to the region to determine the feature band depth, band center, and width (Figure <ref type="figure" target="#fig_4">5</ref>). The relative normalized reflectance spectra in Figure <ref type="figure" target="#fig_4">5</ref> is the normalized reflectance subtracted from the mean of the continuum between 3.6 and 3.7 µm such that the average of the continuum would be 0. We compare these fit parameters to an estimation of the band center by taking the centroid of flux within the wavelength range of 2.7 to 3.1 µm and estimating the band depth taking the mean observed flux at the estimated band center and subtracting this from the mean continuum flux at the estimated band center. The estimated band center for observation 1 using the centroid method was 2.89 µm with a band depth estimate of 4.3%. The estimated band center from observation 2 from the centroid method was 2.90 µm with a band depth estimate of 4.9%. These same parameters from the Gaussian fit for observation 1 were a band center and depth respectively of 2.92 µm and 4.5% and for observation 2 were 2.96 µm and 5.8%. For observation 1 we also applied the Gaussian fit method to the data while masking the spike between 2.87 and 2.91 µm resulting in a band center of 2.98 and a band depth of 4.9%. Taking the minimum of the data binned to 10 nm for observation 1 resulted in a band center of 2.86 µm with a band depth of 5.1% and for observation 2 a band center of 2.95 with a band depth of 6.0%. The band depths calculated from the variety of approaches are given in Table <ref type="table" target="#tab_0">1</ref>. The reported errors for the band depth measurements from the centroid method are assigned from the standard deviation of the data from 3.56 -3.90 µm. When varying the linear fit by the standard error of the fit slope we found that the variation of the estimated band depth was within the standard deviation of this baseline and when applying the band depth error calculation method of <ref type="bibr" target="#b54">Takir et al. (2017)</ref> the error was on the order of ∼0.001% and therefore insignificant compared to variations that may arise from the choice of a linear fit to the continuum and standard deviation of the data. The band depths estimated from the observations by <ref type="bibr" target="#b54">Takir et al. (2017)</ref> range between 2.72 -3.26%, the center of these bands was not measurable due to the lack of available data resulting from atmospheric opacity at the band center and therefore the authors assumed a center of 3 µm (see Figure <ref type="figure" target="#fig_5">6</ref>) We estimate that the band depth of the 3-µm feature is between 4.3 and 4.7% for observation 1 and 5.3 and 6.0% for observation 2. The differences in measured feature strength from JWST and IRTF observations further suggest heterogeneity of the hydration abundance across Psyche's surface by a few percent. We also compared the normalized reflectance spectrum of Psyche near 3 µm to laboratory spectroscopic measurements of carbonaceous chondrites from Takir et al. ( <ref type="formula">2019</ref>  Figure <ref type="figure" target="#fig_7">7</ref> shows the normalized reflectance spectrum of Psyche near 3-µm compared with laboratory spectra of CM2-, CH/CBb-and CY-type carbonaceous chondrites. The shape of the 3-µm feature more closely resembles CY and CH/CBb type chondrites. We include the CM2 data as a common example of sharp 2.7-µm features typically associated with OH present both in the chondrites and asteroids e.g., Bennu from <ref type="bibr" target="#b11">Clark et al. (2023)</ref> that do not match the feature shape observed on Psyche. The CH/CBb type chondrite Isheyevo shown in blue in Figure <ref type="figure" target="#fig_7">7</ref> was also found to be a good match for the vis-NIR spectra of Psyche from <ref type="bibr" target="#b19">Dibb et al. (2023)</ref>. We also found that partial 3-µm features observed on asteroids (324) Bamberga and (704) Interamnia, both considered to have either sharp type or not sharp type 3-µm features depending on the observation, most closely matched the shape of Psyche's 3-µm feature when performing a sum of square difference comparisons between Psyche and the asteroid spectra provided in <ref type="bibr" target="#b45">Rivkin et al. (2022)</ref> (Figure <ref type="figure" target="#fig_8">8</ref>). The sum of square differences between Psyche's spectra and that of (324) Bamberga and Interamnia were as low as 0.11. For comparison, the lowest values for (24) Themis, (52) Europa, and (2) Pallas were 2.18, 0.81, and 1.21 respectively. It is possible that Psyche's 3-µm band shape may have been a 2.7-µm sharp type that shifted closer to 2.9-µm taking on a more rounded shape as a result of thermal metamorphism (as described in <ref type="bibr" target="#b3">(Bates et al. 2021)</ref>) . Psyche's 3-µm band is also a close match to the stage III CY 980115 chondrite from <ref type="bibr" target="#b3">(Bates et al. 2021</ref>) that contains ∼8 vol% secondary olivine, ∼2 vol% magnetite, ∼11 vol% Fesulfide, and ∼79 vol% dehydrated phyllosilicate. Stage III chondrites are characterized by low degrees of aqueous alteration and unequilibrated mineral assemblages with anticipated peak temperatures of the parent body around 600 • C. From <ref type="bibr" target="#b3">Bates et al. (2021)</ref>, 3-µm features for chondrites in stage III samples show features between 2.88 and 3.02 µm (as we see on Psyche),though the position of the feature is not influenced by degree of aqueous alteration and therefore offers no information on phyllosilicate abundance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">6-µm Feature</head><p>We did not detect any definitive 6-µm feature that would have potentially been associated with H 2 O in either MIRI observation. Figure <ref type="figure" target="#fig_9">9</ref> shows the relative normalized emission for each observation. The normalized emission was subtracted from the mean of the continuum between 6.15 and 6.22 µm such that the average of the continuum would be 0. The data reduced using a previous version of the pipeline (v.1.11.3 with pmap 0994) showed a peak exceeding 1% above the baseline in observation 1 and this was no longer observed after reducing the data with a more recent version of the pipeline (v.1.14.0 with pmap 1241). The standard deviation of data near where the band may be present (from 6.15 -6.22 µm) is 0.0037 or 0.37%. We also don't anticipate that the large scatter of up to 0.1 or 10% between 6.4 and 6.6 µm is due to any spectral features and therefore suggests an instrumental artifact. We therefore do not report a definitive detection of water on Psyche, but cannot completely rule out its absence, particularly if it is as low as a 0.4 -1% level which may be anticipated based on values observed on the Moon and at Itokawa of between 1 -5%. To provide a reasonable upper limit on the amount of water that may be present at Psyche but would potentially not be observable as a result of pipeline limitations and instrumental effects, we report this upper limit conservatively at 0.4%. The water abundance from the strength of the 6-µm feature may be calculated using the equation from Honniball et al. ( <ref type="formula">2021</ref>)</p><formula xml:id="formula_0">A = 9394 • D 2 + 9594 • D</formula><p>where A is abundance in ppm and D is the band strength. Using a band strength of 0.4% this amounts to an upper limit for the water abundance of 39 ppm.</p><p>The possible interpretations for a non-detection include: 1. Water is present but at an amount that the instrument was not sensitive to, which would likely be below 0.4% or 39 ppm. 2. Water is present above this level, up to potentially 10%, but issues with the calibration pipeline have suppressed the feature. 3. Water is not present at all in the hemisphere observed by these JWST observations. 4. Water is present but other spectral absorption features near 6-µm may be present as well.</p><p>Of these possibilities, interpretation 1 seems most likely given that water abundance estimates of 100 -500 ppm have been measured at the Moon <ref type="bibr" target="#b28">(Honniball et al. 2021</ref>) and on near-earth asteroids such as Itokawa <ref type="bibr" target="#b16">(Daly et al. 2021</ref>) (corresponding to 1 -5% band strengths), but Psyche's farther distance from the Sun leads to a correspondingly lower exposure to solar wind implantation. The hydrogen ions from the solar wind are thought to interact with the surface of these airless bodies to produce water, and Psyche's reduced exposure to this solar wind may lead to a correspondingly reduced amount of water produced. As a result we would not necessarily anticipate significantly higher water abundance than on the surface of the Moon, though we cannot definitively rule this out due to instrumental effects that are apparent in the data and due to deviations in spectral features that arise as a result of updates to the calibration pipeline. Additionally, the relationship between hydration and the solar wind may be further complicated by cooler temperatures for bodies farther away from the Sun potentially increasing the retention of water even though the body has less access to solar wind hydrogen ions. We also note that olivine has an emission feature near 6-µm (Kremer et al. 2020) and other minerals may have absorption features in emissivity near this wavelength as well. This points to possible degeneracies in interpretations of the strength of the 6-µm band. The lack of any water at all would indicate that the hydration producing the 3-µm band is entirely due to OH, which is possible, though a limited amount of water under the detection threshold of the instrument is more likely given the exposure of the asteroid to hydrogen ions that would likely interact with the surface in a similar way to other airless bodies.</p><p>We also note that <ref type="bibr" target="#b43">Rivkin et al. (2018)</ref> identify a relationship in non-carbonaceous asteroids between hydrogen abundance and the band depth at 2.95 µm where a 2% band depth corresponds to ∼100 pm of hydrogen. We are reluctant to make any estimates of specific amounts of hydrogen abundance inferred from this relationship based on the largest band depths observed at Psyche because the relationship is likely nonlinear and is unknown. However, observations of other airless bodies' 3-µm bands with depths similar to what is observed at Psyche, e.g. at Eros and Ganymed, have had hydrogen estimates placed at 250 -400 ppm <ref type="bibr" target="#b43">(Rivkin et al. 2018)</ref>. Other sources have correlated a 2% absorption feature on the Moon to ∼1000 ppm water <ref type="bibr" target="#b12">(Clark 2009)</ref>. We do not claim that a similar amount of water exists on Psyche, particularly because no 6-µm emission feature uniquely associated with water was observed, but point out that the relationship between hydrogen, OH and H 2 O abundance from 3-µm feature properties alone may be insufficient and limitations in degeneracies of interpretation of the 6-µm feature generally may further complicate inferred water abundance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Additional Spectral Features</head><p>We identified several other spectral features by visual inspection and further assessed these by fitting their parameter properties. The identified absorption features in NIRSpec observations are located at 1.25 and 1.28 µm in observation 2, 1.59 µm in observation 1, and 2.66 and 4.8 µm in both observations. The identified absorption features in the MIRI emission spectrum are located at 5.74 and 5.93 µm in observation 1 and 5.75 and 5.98 µm in observation 2. We fit Gaussians to these features to determine their properties (see Appendix A. Supplemental Figures) and recorded these in Table <ref type="table" target="#tab_1">2</ref>. The data with the 1.25, 1.28, and 1.34 µm features were binned to 1 nm, the data with the 1.59 µm feature were binned to 10 nm, the data with the 2.66 µm feature were binned to 1 nm, and the data with the 4.8 µm feature and the MIRI data were binned to 20 nm. The 1.25, 1.28, 1.34, 1.59, and 2.67 µm absorption features observed are quite narrow (FWHMs 0.004 -0.023 µm), with strengths that are unlikely to have gone undetected by previous observations in these wavelengths (we were unable to find these features in previous near-IR observations of Psyche described in Ockert- <ref type="bibr" target="#b40">Bell et al. (2008)</ref>). We also report absorption features in emissivity near 5.75 and 5.95 µm. We are uncertain whether any of these correspond to real features but we include them for comparative purposes as more JWST asteroid and laboratory observations become available.</p><p>We compared the emissivity spectra to that of olivine and orthopyroxene and found no similarities. However, the broad 4.81 µm absorption feature in both observations may be associated with an Si-O bending feature present with silicate material providing additional evidence for the presence of silicate material across Psyche's surface.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">DISCUSSION</head><p>JWST observations of asteroid ( <ref type="formula">16</ref>) Psyche offer critical insights into the asteroid's surface composition and its geological history while providing context for upcoming Psyche mission in-situ observations. The presence of 3-µm features and the lack of a 6-µm feature in Psyche's spectrum has profound implications for understanding the asteroid's origin, evolution, and the broader narrative of water distribution in the early Solar System.</p><p>The detection of the 3-µm absorption feature associated with hydroxyl or water molecules in our NIRSpec observations suggests that Psyche's surface is not exclusively metallic but hosts widespread hydrated material. Laboratory studies of the 3-µm features in meteorites show trends in band shape and center with the degree of aqueous alteration <ref type="bibr" target="#b53">(Takir et al. 2013)</ref>, <ref type="bibr" target="#b4">(Beck et al. 2014)</ref>, <ref type="bibr" target="#b24">(Garenne et al. 2019)</ref>, and <ref type="bibr" target="#b55">(Takir et al. 2019)</ref>. The nature of the 3-µm feature observed on Psyche is not comparable to the sharp shape centered at ∼2.7-2.8 µm seen in CI-, CM-, and CR-type carbonaceous chondrites (i.e., OH in phyllosilicates). Instead, the band shape and center appear consistent with those in CY-, CH-and CB-type carbonaceous chondrites. The CHs are rich in metal (20%; <ref type="bibr" target="#b31">Krot et al. (2003)</ref>, <ref type="bibr" target="#b29">Ivanova et al. (2008)</ref>) and the 3-µm band could be attributed to the presence of iron oxyhydroxides (e.g., FeO (OH), rust: FeO (OH), H 2 O). Previous studies have proposed that CBs formed in a vapormelt plume produced by a giant impact, and the presence of CB-like material on Psyche's surface could be the result of a giant impact removing Psyche's mantle <ref type="bibr" target="#b47">(Sanchez et al. 2017)</ref>. The variability in the strength of the hydration features across our observations implies a heterogeneous distribution of hydrated minerals, which could result from impacts, suggesting a complex surface history involving hydrated impactors with CHs and CBs as reasonable impactor candidates.</p><p>The lack of a definitive detection of a 6-µm emission feature on Psyche indicates that Psyche's hydration is dominated by OH. Based on the standard deviation of the data around this feature location we set an upper limit of the potential presence of water that is below our detection limit at an abundance of 39 ppm. This value is less than half of and up to an order of magnitude lower than the molecular abundance of water on the Moon (∼100 -400 ppm <ref type="bibr" target="#b28">Honniball et al. (2021)</ref>), and on S-type asteroids that were previously considered anhydrous (∼450 ppm <ref type="bibr" target="#b1">(Arredondo et al. 2024b)</ref>). However, the presence of water at an amount up to an order of magnitude lower than at the Moon is reasonable considering the solar wind flux at the Moon is 7 cm -3 <ref type="bibr" target="#b23">(Futaana et al. 2006</ref>) and at Psyche is 0.6 cm -3 <ref type="bibr" target="#b14">(Collinson et al. 2022</ref>), and we may expect that if water is produced mostly as the result of solar wind implantation the correspondingly lower flux of solar wind would produce less water. Additionally, such a low upper limit of abundance lends further evidence that hydration is due to an exogenic source likely with some contribution from solar wind implantation but not yielding a significant amount of hydration due to water.</p><p>The range of possible interpretations highlights the enigmatic nature of Psyche's composition and inferred evolution. If Psyche's hydration is endogenous, this supports the proposal that the asteroid may have formed beyond the snow line of the early solar system and later became implanted in the outer main belt <ref type="bibr" target="#b21">(Elkins-Tanton et al. 2022)</ref>. The presence of H 2 O and/or OH on Psyche could be attributed to either the delivery of hydrated material through impacts, space weathering processes, or the scenario that Psyche's overall composition is not consistent with M-class asteroids (i.e., iron meteorites). Psyche could instead have the same composition as a P-class asteroid (with a somewhat higher albedo than typical P-class asteroids) or an E-class asteroid (with a lower albedo than a typical E-class asteroid). Additionally, the depth of the 3-µm absorption feature observed on Psyche is similar to that of other airless bodies (e.g., Eros and Ganymed; <ref type="bibr" target="#b43">Rivkin et al. (2018)</ref>) with hydrogen abundance estimates of 250 -400 ppm. This estimated amount should be detectable by the Psyche mission's Gamma Ray and Neutron Detection instrument and has implications for interpretations of the results from that instrument <ref type="bibr" target="#b20">(Dibb et al. 2024)</ref>.</p><p>The Psyche mission will explore the asteroid's composition, internal structure, and geology to better understand the building blocks of planet formation. Our JWST observations provide a crucial premission snapshot of Psyche's surface composition using a wavelength range outside the spacecraft's capabilities. Understanding the distribution and abundance of hydrated minerals on Psyche will help to interpret the mission's data within the context of the asteroid's formation and evolutionary history. Our findings suggest that there are hydrated materials on Psyche's north pole, potentially observable as silicates in chondrites that in addition to OH contain pyroxene which the Psyche mission will be able to refute or verify through visual to near-infrared observations with the Multispectral Imager <ref type="bibr" target="#b19">(Dibb et al. 2023)</ref>.</p><p>The detection of hydration features on Psyche contributes to the growing body of evidence that Mclass asteroids are a diverse population and that hydration is more widespread in the asteroid belt than previously thought. This has significant implications for our understanding of water delivery to the inner Solar System, potentially offering insights into the contribution of differentiated planetesimals (which are traditionally thought to be volatile-poor as a result of igneous differentiation) to the Earth's water budget. Psyche's complex surface composition, indicative of a rich geological history involving both metallic and hydrated components, challenges traditional asteroid classification schemes and calls for a reevaluation of our understanding of asteroid formation and evolution. Reduced data used in this analysis and the data required to reduce them (i.e.,the PSG solar spectrum and thermal model outputs) are publicly available at Zenodo 10.5281/zenodo.12536821.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">CODE AVAILABILITY</head><p>The Planetary Spectrum Generator used to generate the solar spectrum is at https:/psg.gsfc.nasa.gov/.</p><p>The JWST science data calibration pipeline is at <ref type="url" target="https://github.com/spacetelescope/jwst">https://github.com/spacetelescope/jwst</ref>. The pipeline version used to calibrate the NIRSpec data was v1.11.3 <ref type="bibr" target="#b8">Bushouse et al. (2023)</ref> and the pipeline version used to calibrate the MIRI data was v1.14.0 <ref type="bibr">Bushouse et al. (2024)</ref>.       <ref type="formula">16</ref>) Psyche produced by dividing the MIRI channel 1 flux by a 2nd-order polynomial masking the region 5.9 -6.1 µm and beyond 6.33 µm for (Top) observation 1 (Bottom) observation 2. The data are binned to a resolution of 20 nm.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Orientation of Psyche at the time of observations (Top) NIRSpec observations (Bottom) MIRI observations. Each observation is nearly pole-on (aspect angle 24°) viewing the north pole. These figures were produced in Pyvista (Sullivan &amp; Kaszynski 2019) using the shape model from Shepard et al. (2021).</figDesc><graphic coords="5,50.74,62.10,511.22,394.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Spectral energy distribution of Psyche obtained from NIRSpec and MIRI instruments prior to removal of the solar spectrum and thermal emission to create a reflectance spectrum. Average resolution is ∼0.001 µm for the NIRSpec observations and ∼0.002 µm for the MIRI observations, corresponding to a factor of ∼25x (AKARI) and ∼60x (Spitzer) increased resolution compared to previous space telescope infrared observations of Psyche. For each instrument, observation 1 is in black and observation 2 is in red.</figDesc><graphic coords="6,50.74,62.11,511.21,340.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure3. Psyche's reflectance spectra from JWST NIRSpec observations. The data in black correspond to observation 1 and in red to observation 2. We omitted observation 1 G235H/F170LP mode data beyond 2.9 µm due to likely instrumental contamination.</figDesc><graphic coords="8,50.74,107.00,511.21,340.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4.Psyche's reflectance spectra from JWST NIRSpec observations. The data in black correspond to observation 1 and in red to observation 2. The darker points correspond to the binned data used to assess spectral feature properties. We omitted observation 1 G235H/F170LP mode data beyond 2.9 µm due to likely instrumental contamination.</figDesc><graphic coords="10,50.74,62.11,511.21,511.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Relative normalized reflectance spectrum of Psyche near 3-µm (Top) observation 1 (Bottom) observation 2.</figDesc><graphic coords="12,50.74,403.91,511.21,340.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Relative normalized reflectance spectrum of Psyche near 3-µm for NIRSpec observation 1 (black) observation 2 (red) and IRTF from Takir et al. (2017) (blue).</figDesc><graphic coords="14,114.64,62.10,383.41,258.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><figDesc>) and Bates et al. (2021) (Figure7).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Normalized reflectance spectrum of Psyche near 3-µm from observation 1 (black), observation 2 (red), normalized reflectance spectra for laboratory data from CM2-(magenta), CH/CBb-(blue), and CY-type (cyan) carbonaceous chondrites. The 3-µm feature on Psyche most closely resembles CBb-type chondrites.</figDesc><graphic coords="15,114.64,62.10,383.40,255.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 8 .</head><label>8</label><figDesc>Figure8. Normalized reflectance spectrum of Psyche near 3-µm from observation 1 (black), normalized reflectance spectra for asteroid data from near-infrared observations of Themis (green), Pallas (cyan), Intermnia (blue), Europa (magenta), and Bamberga (red) with data points corresponding to a binned average using 25 bins and errors corresponding to the standard deviation across the bin.</figDesc><graphic coords="16,114.64,62.10,383.40,383.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. Relative normalized emission spectrum of asteroid (16) Psyche produced by dividing the MIRI channel 1 flux by the TPM then dividing by a linear fit for (Top) observation 1 (Bottom) observation 2.The data are binned to a resolution of 20 nm. We do not detect any 6-µm emission feature in either observation.</figDesc><graphic coords="17,114.64,398.21,383.40,255.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><figDesc>5. DATA AVAILABILITYJWST data are publicly available from the Space Telescope Science Institute's Mikulski Archive for Space Telescopes https://mast.stsci.edu/. The observations produced by the JWST 1731 observation program can be accessed via DOI at 10.17909/xmzs-f849.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 12 .</head><label>12</label><figDesc>Figure 12. Relative normalized reflectance spectrum of Psyche near 1.34-µm. Binned spectra are binned to 1 nm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 13 .</head><label>13</label><figDesc>Figure 13. Relative normalized reflectance spectrum of Psyche near 1.59-µm. Binned spectra are binned to 10 nm.</figDesc><graphic coords="25,178.54,277.54,255.59,170.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 14 .</head><label>14</label><figDesc>Figure 14. Relative normalized reflectance spectrum of Psyche near 2.67-µm. (Top) observation 1 (Bottom) observation 2. Binned spectra are binned to 1 nm.</figDesc><graphic coords="26,178.54,233.50,255.59,170.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 15 .</head><label>15</label><figDesc>Figure 15. Relative normalized reflectance spectrum of Psyche near 4.8-µm. (Top) observation 1 (Bottom) observation 2. Binned spectra are binned to 20 nm.</figDesc><graphic coords="27,178.54,233.50,255.59,170.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 16 .</head><label>16</label><figDesc>Figure 16. Relative normalized emission spectrum of asteroid (16) Psyche produced by dividing the MIRI channel 1 flux by a 2nd-order polynomial masking the region 5.9 -6.1 µm and beyond 6.33 µm for (Top) observation 1 (Bottom) observation 2. The data are binned to a resolution of 20 nm.</figDesc><graphic coords="28,178.54,233.50,255.59,170.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 17 .</head><label>17</label><figDesc>Figure 17. Relative normalized emission spectrum of asteroid (16) Psyche produced by dividing the MIRI channel 1 flux by a 2nd-order polynomial masking the region 5.9 -6.1 µm and beyond 6.33 µm for (Top) observation 1 (Bottom) observation 2. The data are binned to a resolution of 20 nm.</figDesc><graphic coords="29,176.73,233.50,255.59,170.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>3-µm feature property estimates for each NIRSpec observation using centroid and Gaussian fit methods applied to the data for each observation and for observation 1 the sharp feature between 2.87 and 2.91 µm removed.</figDesc><table><row><cell cols="2">NIRSpec Observation Method</cell><cell cols="2">Band Center (µm) Band Depth (%)</cell></row><row><cell>1</cell><cell>Centroid</cell><cell>2.89</cell><cell>4.3 ± 0.3</cell></row><row><cell></cell><cell cols="2">Centroid with central spike removed 2.89</cell><cell>4.4 ± 0.3</cell></row><row><cell></cell><cell>Gaussian</cell><cell>2.92</cell><cell>4.5 ± 0.2</cell></row><row><cell></cell><cell cols="2">Gaussian with central spike removed 2.98</cell><cell>4.9 ± 0.2</cell></row><row><cell></cell><cell>Minimum of binned</cell><cell>2.86</cell><cell>5.1 ± 0.3</cell></row><row><cell>2</cell><cell>Centroid</cell><cell>2.90</cell><cell>4.9 ± 0.4</cell></row><row><cell></cell><cell>Gaussian</cell><cell>2.96</cell><cell>5.8 ± 0.2</cell></row><row><cell></cell><cell>Minimum of binned</cell><cell>2.95</cell><cell>6.0 ± 0.4</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Properties of additional infrared absorption features detected on Psyche.</figDesc><table><row><cell cols="5">Band Center (µm) Instrument Observation Band Depth (%) FWHM (µm)</cell></row><row><cell>1.25 ± 0.00</cell><cell>NIRSpec</cell><cell>2</cell><cell>4.3 ± 0.9</cell><cell>0.004 ± 0.00</cell></row><row><cell>1.28 ± 0.00</cell><cell>NIRSpec</cell><cell>2</cell><cell>5.6 ± 0.5</cell><cell>0.009 ± 0.000</cell></row><row><cell>1.34 ± 0.00</cell><cell>NIRSpec</cell><cell>2</cell><cell>6.3 ± 0.2</cell><cell>0.023 ± 0.001</cell></row><row><cell>1.59 ± 0.00</cell><cell>NIRSpec</cell><cell>1</cell><cell>2.3 ± 0.2</cell><cell>0.059 ± 0.002</cell></row><row><cell>2.67 ± 0.00</cell><cell>NIRSpec</cell><cell>1</cell><cell>2.6 ± 0.2</cell><cell>0.013 ± 0.000</cell></row><row><cell>2.67 ± 0.00</cell><cell>NIRSpec</cell><cell>2</cell><cell>2.9 ± 0.1</cell><cell>0.008 ± 0.001</cell></row><row><cell>4.84 ± 0.01</cell><cell>NIRSpec</cell><cell>1</cell><cell>2.8 ± 0.2</cell><cell>0.331 ± 0.014</cell></row><row><cell>4.81 ± 0.02</cell><cell>NIRSpec</cell><cell>2</cell><cell>2.0 ± 0.2</cell><cell>0.443 ± 0.025</cell></row><row><cell>5.74 ± 0.00</cell><cell>MIRI</cell><cell>1</cell><cell>1.1 ± 0.4</cell><cell>0.048 ± 0.003</cell></row><row><cell>5.75 ± 0.00</cell><cell>MIRI</cell><cell>2</cell><cell>0.7 ± 0.4</cell><cell>0.034 ± 0.003</cell></row><row><cell>5.93 ± 0.00</cell><cell>MIRI</cell><cell>1</cell><cell>0.9 ± 0.4</cell><cell>0.067 ± 0.004</cell></row><row><cell>5.98 ± 0.00</cell><cell>MIRI</cell><cell>2</cell><cell>0.6 ± 0.4</cell><cell>0.105 ± 0.009</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>see descriptive notes in section 4 of https://github.com/STScI-MIRI/MRS-ExampleNB/blob/main/Flight_Notebook1/MRS_F</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>We thank the reviewers for their helpful feedback that led to substantial improvement of this manuscript. This work is based (in part) on observations made with the <rs type="institution">NASA/ESA/CSA James Webb Space Telescope</rs>. The data were obtained from the <rs type="institution">Mikulski Archive for Space Telescopes at the Space Telescope Science Institute</rs>, which is operated by the <rs type="institution">Association of Universities for Research in Astronomy, Inc.</rs>, under <rs type="funder">NASA</rs> contract <rs type="grantNumber">NAS5-03127</rs> for JWST. These observations are associated with program #<rs type="grantNumber">1731</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Wnt42sY">
+					<idno type="grant-number">NAS5-03127</idno>
+				</org>
+				<org type="funding" xml:id="_pfNE5vP">
+					<idno type="grant-number">1731</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arredondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Mcadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Becker</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/PSJ/ad16ec</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PSJ</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">33</biblScope>
+		</imprint>
+	</monogr>
+	<note>et al. 2024a</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arredondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Mcadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Honniball</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/PSJ/ad18b8</idno>
+		<imprint>
+			<date type="published" when="2024">2024b, PSJ, 5, 37</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Avdellidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">'</forename><surname>Delbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fienga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1093/mnras/sty017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MNRAS</title>
+		<imprint>
+			<biblScope unit="volume">475</biblScope>
+			<biblScope unit="page">3419</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Donaldson Hanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bowles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2021JE006827</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research (Planets)</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page">6827</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Garenne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Quirico</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2013.10.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">229</biblScope>
+			<biblScope unit="page">263</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Molyneux</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/PSJ/abb67e</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PSJ</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">53</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gaffey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Asteroids</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Binzel</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><surname>Gehrels</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Matthews</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">II</biblScope>
+			<biblScope unit="page" from="921" to="945" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Bierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Elkins-Tanton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>O'rourke</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/PSJ/ac83a7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PSJ</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">196</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bushouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eisenhamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dencheva</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.8157276</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JWST Calibration Pipeline</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>1.11.3, Zenodo</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<idno type="DOI">10.5281/zenodo.10870758</idno>
+		<title level="m">JWST Calibration Pipeline, 1.14.0, Zenodo</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cambioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Kleer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shepard</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2021JE007091</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research (Planets)</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page">7091</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Salisbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2023.115563</idno>
+		<idno>doi: 10.1016/j.icarus.2023.115563</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">115563</biblScope>
+			<date type="published" when="1973">1973. 2023</date>
+		</imprint>
+	</monogr>
+	<note>Icarus</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Clark</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1178105</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">326</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Cloutis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gaffey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G W</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S J</forename><surname>Lambert</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JB095iB01p00281</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">281</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Collinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L.-J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Jian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dorelli</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4357/ac51d7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">927</biblScope>
+			<biblScope unit="page">202</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Crane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Minton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Emery</surname></persName>
+		</author>
+		<title level="m">44th Annual Lunar and Planetary Science Conference, Lunar and Planetary Science Conference</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page">1018</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Daly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Hallis</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41550-021-01487-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Astronomy</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">1275</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Farinella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marzari</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/icar.1998.6037</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page">140</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Kleer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cambioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shepard</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/PSJ/ac01ec</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PSJ</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">149</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Dibb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Elkins-Tanton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2022EA002694</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Earth and Space Science</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Dibb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Asphaug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Bell</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2023AV001077</idno>
+		<title level="m">AGU Advances, 5, e2023AV001077</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Elkins-Tanton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Asphaug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Bell</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-022-00880-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<biblScope unit="page">17</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fornasier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dotto</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2010.07.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page">655</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Futaana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barabash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Holmström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bhardwaj</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2005.10.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Planet. Space Sci</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page">132</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Garenne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Montes-Hernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/maps.13377</idno>
+	</analytic>
+	<monogr>
+		<title level="j">M&amp;PS</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page">2652</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Hardersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Cloutis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mothé-Diniz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Emery</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1945-5100.2011.01304.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">M&amp;PS</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<date type="published" when="1910">2011. 1910</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Harris</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/icar.1997.5865</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page">291</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Honniball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Lucey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arredondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Reach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Malaret</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2022GL097786</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page">97786</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Honniball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Lucey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41550-020-01222-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Astronomy</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">121</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Ivanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Kononkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Krot</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1945-5100.2008.tb01090.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">M&amp;PS</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">915</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lebofsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Marley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Kremer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Mustard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Pieters</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2020GL089151</idno>
+		<idno>doi: 10.1029/2020GL089151</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page">89151</biblScope>
+			<date type="published" when="1990">1990. 2020</date>
+		</imprint>
+	</monogr>
+	<note>Icarus</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Krot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Petaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Itoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochimica et Cosmochimica Acta Supplement</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page">237</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S V</forename><surname>Lagerros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="page">1226</biblScope>
+			<date type="published" when="1011">1996. 1011 -. 1997</date>
+		</imprint>
+	</monogr>
+	<note>A&amp;A</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S V</forename><surname>Lagerros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">332</biblScope>
+			<biblScope unit="page">1123</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">A</forename><surname>Landsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Campins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pinilla-Alonso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hanuš</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lorenzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2015.01.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">252</biblScope>
+			<biblScope unit="page">186</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">A</forename><surname>Landsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Emery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Campins</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2017.11.035</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">304</biblScope>
+			<biblScope unit="page">58</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lebofsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Sykes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Tedesco</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0019-1035(86)90021-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page">239</biblScope>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Carry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ligori</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2013.06.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="page">419</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S V</forename><surname>Lagerros</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="page">340</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S V</forename><surname>Lagerros</surname></persName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361:20011491</idno>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">381</biblScope>
+			<biblScope unit="page">324</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Ockert-Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Shepard</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2007.11.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page">206</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Racero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Giordano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Carry</surname></persName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361/202140899</idno>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">659</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Rivkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Howell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Britt</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/icar.1995.1144</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page">90</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Rivkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Howell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Emery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sunshine</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2017.04.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">304</biblScope>
+			<biblScope unit="page">74</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Rivkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Howell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lebofsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Britt</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/icar.2000.6354</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page">351</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Rivkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Emery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Howell</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/PSJ/ac7217</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PSJ</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">153</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Rivkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Wong</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/PSJ/ad04d8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PSJ</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">214</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Shepard</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-3881/153/1/29</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AJ</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page">29</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sarid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Leinhardt</surname></persName>
+		</author>
+		<title level="m">IAU General Assembly</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">2256152</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Shepard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Kleer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cambioni</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/PSJ/abfdba</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PSJ</title>
+		<imprint>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">125</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Siltala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Granvik</surname></persName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361/201935608</idno>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">633</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaszynski</surname></persName>
+		</author>
+		<idno type="DOI">10.21105/joss.01450</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Open Source Software</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1450</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Takir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Emery</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2012.02.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">219</biblScope>
+			<biblScope unit="page">641</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Takir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Emery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Mcsween</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/maps.12171</idno>
+	</analytic>
+	<monogr>
+		<title level="j">M&amp;PS</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">1618</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Takir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Shepard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Emery</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-3881/153/1/31</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AJ</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page">31</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Takir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Stockstill-Cahill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Hibbitts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nakauchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2019.05.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">333</biblScope>
+			<biblScope unit="page">243</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tholen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Arizona</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Usui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ootsubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Onaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/pasj/psy125</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PASJ</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
