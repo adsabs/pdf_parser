@@ -1,0 +1,304 @@
+{
+  "filename": "2407.12162v1.pdf",
+  "sections": [
+    {
+      "heading": "Untitled Section",
+      "text": "1. INTRODUCTION (\nHowever, there is also evidence that challenges this view. M-class asteroids, while consistent with iron meteorites due to their lack of features in the vis-NIR wavelength range used in the Tholen taxonomy, are also consistent with enstatite chondrites that are similarly featureless in these wavelengths. Additionally, Psyche's density measurements have varied widely over the years, and recent estimates suggest a density of 3.88 \u00b1 0.25 g/cm 3 (Siltala & Granvik 2020), which if towards the lower end, would be similar to that of Vesta, a non-metallic asteroid. This raises doubts about Psyche being predominantly metallic (> 50%), as achieving such a low density would require an unrealistically high macroporosity, unlikely for an object of Psyche's size without evidence of a massive asteroid family that would result from its breakup and reaccumulation\nNear-infrared (NIR) surveys of M-class asteroids\nThe AKARI spacecraft did not detect a 3-\u00b5m feature but also concluded the shallow feature reported by\nThe presence and strength of either of these features might be linked to several possible formation and evolutionary history scenarios for the Solar System. Assessing the abundance of hydration products present on Psyche provides important context for the amount of volatiles that the largest planetesimals could retain during their formation and differentiation in the early solar system and thus whether impacts of differentiated planetesimals onto the early Earth should be considered an important source of water. Hydrous materials, whether water-or OH-bearing minerals or the ices themselves, may be remnants of planetesimal formation or they could be later and even recent additions from impacts."
+    },
+    {
+      "heading": "METHODS",
+      "text": "We observed Psyche with the James Webb Space Telescope (JWST) using the Near Infrared Spectrograph (NIRSpec) and Mid-Infrared Instrument (MIRI) instruments to fully characterize the 3-\u00b5m absorption feature associated with OH/H 2 O, and to identify whether the 6-\u00b5m emission feature associated with H 2 O is present. We obtained two sets of observations for each instrument to assess the variability of these features with the NIRSpec observations each on March 5 2023, and the MIRI observations on March 20 and 27, 2023. During these observations, Psyche was nearly pole-on (aspect angle 24\u00b0) with observations covering the north pole region (Figure"
+    },
+    {
+      "heading": "Observations and Data Reduction",
+      "text": "We used JWST's NIRSpec and MIRI instruments to observe Psyche (program ID 1731) in March 2023. The NIRSpec Integral Field Unit observations produced two data sets with the first observation beginning March 5 2023 02:21:33 UT and the second observation beginning March 5 2023 03:15:10 UT using the G140H/F100LP, G235H/F170LP, and G395H/F290LP modes, each with a total effective exposure time of 128.84 s. The MIRI Integral Field Unit observations also produced two data sets, with the first observation starting March 20 2023 22:51:59 UT and the second observation starting March 26 20:39:46 UT using all four spectral channels of the MRS (and corresponding sub-bands) with an exposure time of 632.71 s. The target saturated in Channels 2 through 4 and improving the correspondingly degraded data quality to carry out spectral feature analysis requires effort beyond the scope of our program goals. The proposed MIRI observations included Channel 1 (B = MED) data only and given that a 6-\u00b5m feature would be entirely detectable within Channel 1 (expected centers are 6.04 -6.12 \u00b5m with widths of 0.1 -0.55 \u00b5m, see Figure"
+    },
+    {
+      "heading": "NIRSpec Reflectance Spectrum",
+      "text": "We produced the reflectance spectrum by dividing the calibrated NIRSpec data by the solar spectrum obtained from the Planetary Spectrum Generator (PSG) using conditions matching the observations. The NIRSpec data also extend far enough into the infrared to be affected by thermal emission. We applied a tailored version of the Standard Thermal Model as established by"
+    },
+    {
+      "heading": "MIRI Emission Spectrum",
+      "text": "We calculated Psyche's thermal emission for the MIRI dataset via a thermophysical model (TPM) code"
+    },
+    {
+      "heading": "Near-Infrared Observations of Psyche",
+      "text": "After producing the NIRSpec reflectance spectrum, we split the NIRSpec observations into wavelength ranges of 1.10 -1.35 \u00b5m, 1.48 -2.35 \u00b5m, 2.48 -3.95 \u00b5m, and 4.23 -5.23 \u00b5m. These ranges represent the continuously available NIRSpec data (i.e., without gaps) over which we could fit a linear continuum to produce a normalized reflectance spectrum for each range. We note that the NIRSpec data begin at \u223c1 \u00b5m, but we selected a cutoff of 1.1 \u00b5m as we believe the 1.0 -1.1 \u00b5m range is dominated by instrumental effects. We divided each of these wavelength ranges by separate fit linear continuums to produce normalized reflectance spectra to identify absorption features. We first fit a continuum using only portions of the beginning and end of the wavelength range, then once we identified potential spectral features we fit a new continuum over the entire wavelength range with those spectra features masked. We binned the data between 1 and 20 nm depending on the data resolution prior to fitting a gaussian to any identified features. We also omitted G235H/F170LP mode data beyond 2.9 \u00b5m for observation 1 as these data appeared to be dominated by a potential instrumental effect with flux values largely inconsistent with the G395H data from the same observation and G235H data from observation 2. The resulting normalized reflectance spectra and corresponding spectra binned to 10 nm for each wavelength range are shown in Figure\nWe measured the band depth of the 3-\u00b5m feature in two ways. First, we applied a gaussian fit to the 3-\u00b5m region. Second, we took the centroid of the flux between 2.7 and 3.1 \u00b5m and estimated the band strength by taking the mean of the observed flux at the estimated band center subtracted from the the mean continuum flux at the estimated band center. Third, we set the band center as the minimum value of the data binned to a wavelength of 10 nm and measured the band depth as the observed minimum flux subtracted from the mean continuum flux at this band center. For observation 1 this was repeated with the spike between 2.87 and 2.91 \u00b5m excluded from the analysis. The results of these various methods are in Table\nWe subtracted the solar contribution from the MIRI data and then binned the data to a wavelength resolution of 20 nm. We then divided the data by a spin-shape thermophysical model and fit a line that masked the 6-\u00b5m feature region (5.9 -6.1 \u00b5m) and longward of 6.33 \u00b5m to remove the continuum and produce a normalized emission spectrum. We then fit a Gaussian to the data in the 6-\u00b5m feature region and calculated the standard deviation around the feature region to report an upper limit on the detectable amount of water potentially present."
+    },
+    {
+      "heading": "RESULTS",
+      "text": "The principal objective of this study is to investigate the presence of 3 and 6-\u00b5m features on Psyche's surface to evaluate the corresponding abundance and heterogeneity of hydration across Psyche's surface. Alongside this main goal, we have also mapped additional spectral features detailed in Table"
+    },
+    {
+      "heading": "3-\u00b5m Feature",
+      "text": "We observed a 3-\u00b5m feature associated with OH, and potentially H 2 O, in each observation and applied a Gaussian fit to the region to determine the feature band depth, band center, and width (Figure"
+    },
+    {
+      "heading": "6-\u00b5m Feature",
+      "text": "We did not detect any definitive 6-\u00b5m feature that would have potentially been associated with H 2 O in either MIRI observation. Figure\nwhere A is abundance in ppm and D is the band strength. Using a band strength of 0.4% this amounts to an upper limit for the water abundance of 39 ppm.\nThe possible interpretations for a non-detection include: 1. Water is present but at an amount that the instrument was not sensitive to, which would likely be below 0.4% or 39 ppm. 2. Water is present above this level, up to potentially 10%, but issues with the calibration pipeline have suppressed the feature. 3. Water is not present at all in the hemisphere observed by these JWST observations. 4. Water is present but other spectral absorption features near 6-\u00b5m may be present as well.\nOf these possibilities, interpretation 1 seems most likely given that water abundance estimates of 100 -500 ppm have been measured at the Moon\nWe also note that"
+    },
+    {
+      "heading": "Additional Spectral Features",
+      "text": "We identified several other spectral features by visual inspection and further assessed these by fitting their parameter properties. The identified absorption features in NIRSpec observations are located at 1.25 and 1.28 \u00b5m in observation 2, 1.59 \u00b5m in observation 1, and 2.66 and 4.8 \u00b5m in both observations. The identified absorption features in the MIRI emission spectrum are located at 5.74 and 5.93 \u00b5m in observation 1 and 5.75 and 5.98 \u00b5m in observation 2. We fit Gaussians to these features to determine their properties (see Appendix A. Supplemental Figures) and recorded these in Table\nWe compared the emissivity spectra to that of olivine and orthopyroxene and found no similarities. However, the broad 4.81 \u00b5m absorption feature in both observations may be associated with an Si-O bending feature present with silicate material providing additional evidence for the presence of silicate material across Psyche's surface."
+    },
+    {
+      "heading": "DISCUSSION",
+      "text": "JWST observations of asteroid (\nThe detection of the 3-\u00b5m absorption feature associated with hydroxyl or water molecules in our NIRSpec observations suggests that Psyche's surface is not exclusively metallic but hosts widespread hydrated material. Laboratory studies of the 3-\u00b5m features in meteorites show trends in band shape and center with the degree of aqueous alteration\nThe lack of a definitive detection of a 6-\u00b5m emission feature on Psyche indicates that Psyche's hydration is dominated by OH. Based on the standard deviation of the data around this feature location we set an upper limit of the potential presence of water that is below our detection limit at an abundance of 39 ppm. This value is less than half of and up to an order of magnitude lower than the molecular abundance of water on the Moon (\u223c100 -400 ppm\nThe range of possible interpretations highlights the enigmatic nature of Psyche's composition and inferred evolution. If Psyche's hydration is endogenous, this supports the proposal that the asteroid may have formed beyond the snow line of the early solar system and later became implanted in the outer main belt\nThe Psyche mission will explore the asteroid's composition, internal structure, and geology to better understand the building blocks of planet formation. Our JWST observations provide a crucial premission snapshot of Psyche's surface composition using a wavelength range outside the spacecraft's capabilities. Understanding the distribution and abundance of hydrated minerals on Psyche will help to interpret the mission's data within the context of the asteroid's formation and evolutionary history. Our findings suggest that there are hydrated materials on Psyche's north pole, potentially observable as silicates in chondrites that in addition to OH contain pyroxene which the Psyche mission will be able to refute or verify through visual to near-infrared observations with the Multispectral Imager\nThe detection of hydration features on Psyche contributes to the growing body of evidence that Mclass asteroids are a diverse population and that hydration is more widespread in the asteroid belt than previously thought. This has significant implications for our understanding of water delivery to the inner Solar System, potentially offering insights into the contribution of differentiated planetesimals (which are traditionally thought to be volatile-poor as a result of igneous differentiation) to the Earth's water budget. Psyche's complex surface composition, indicative of a rich geological history involving both metallic and hydrated components, challenges traditional asteroid classification schemes and calls for a reevaluation of our understanding of asteroid formation and evolution. Reduced data used in this analysis and the data required to reduce them (i.e.,the PSG solar spectrum and thermal model outputs) are publicly available at Zenodo 10.5281/zenodo.12536821."
+    },
+    {
+      "heading": "CODE AVAILABILITY",
+      "text": "The Planetary Spectrum Generator used to generate the solar spectrum is at https:/psg.gsfc.nasa.gov/.\nThe JWST science data calibration pipeline is at"
+    }
+  ],
+  "tei_figures": [
+    {
+      "id": "fig_0",
+      "caption": "Figure 1. Orientation of Psyche at the time of observations (Top) NIRSpec observations (Bottom) MIRI observations. Each observation is nearly pole-on (aspect angle 24\u00b0) viewing the north pole. These figures were produced in Pyvista (Sullivan & Kaszynski 2019) using the shape model from Shepard et al. (2021).",
+      "type": "figure"
+    },
+    {
+      "id": "fig_1",
+      "caption": "Figure 2. Spectral energy distribution of Psyche obtained from NIRSpec and MIRI instruments prior to removal of the solar spectrum and thermal emission to create a reflectance spectrum. Average resolution is \u223c0.001 \u00b5m for the NIRSpec observations and \u223c0.002 \u00b5m for the MIRI observations, corresponding to a factor of \u223c25x (AKARI) and \u223c60x (Spitzer) increased resolution compared to previous space telescope infrared observations of Psyche. For each instrument, observation 1 is in black and observation 2 is in red.",
+      "type": "figure"
+    },
+    {
+      "id": "fig_2",
+      "caption": "Figure3. Psyche's reflectance spectra from JWST NIRSpec observations. The data in black correspond to observation 1 and in red to observation 2. We omitted observation 1 G235H/F170LP mode data beyond 2.9 \u00b5m due to likely instrumental contamination.",
+      "type": "figure"
+    },
+    {
+      "id": "fig_3",
+      "caption": "Figure 4.Psyche's reflectance spectra from JWST NIRSpec observations. The data in black correspond to observation 1 and in red to observation 2. The darker points correspond to the binned data used to assess spectral feature properties. We omitted observation 1 G235H/F170LP mode data beyond 2.9 \u00b5m due to likely instrumental contamination.",
+      "type": "figure"
+    },
+    {
+      "id": "fig_4",
+      "caption": "Figure 5. Relative normalized reflectance spectrum of Psyche near 3-\u00b5m (Top) observation 1 (Bottom) observation 2.",
+      "type": "figure"
+    },
+    {
+      "id": "fig_5",
+      "caption": "Figure 6. Relative normalized reflectance spectrum of Psyche near 3-\u00b5m for NIRSpec observation 1 (black) observation 2 (red) and IRTF from Takir et al. (2017) (blue).",
+      "type": "figure"
+    },
+    {
+      "id": "fig_6",
+      "caption": ") and Bates et al. (2021) (Figure7).",
+      "type": "figure"
+    },
+    {
+      "id": "fig_7",
+      "caption": "Figure 7. Normalized reflectance spectrum of Psyche near 3-\u00b5m from observation 1 (black), observation 2 (red), normalized reflectance spectra for laboratory data from CM2-(magenta), CH/CBb-(blue), and CY-type (cyan) carbonaceous chondrites. The 3-\u00b5m feature on Psyche most closely resembles CBb-type chondrites.",
+      "type": "figure"
+    },
+    {
+      "id": "fig_8",
+      "caption": "Figure8. Normalized reflectance spectrum of Psyche near 3-\u00b5m from observation 1 (black), normalized reflectance spectra for asteroid data from near-infrared observations of Themis (green), Pallas (cyan), Intermnia (blue), Europa (magenta), and Bamberga (red) with data points corresponding to a binned average using 25 bins and errors corresponding to the standard deviation across the bin.",
+      "type": "figure"
+    },
+    {
+      "id": "fig_9",
+      "caption": "Figure 9. Relative normalized emission spectrum of asteroid (16) Psyche produced by dividing the MIRI channel 1 flux by the TPM then dividing by a linear fit for (Top) observation 1 (Bottom) observation 2.The data are binned to a resolution of 20 nm. We do not detect any 6-\u00b5m emission feature in either observation.",
+      "type": "figure"
+    },
+    {
+      "id": "fig_10",
+      "caption": "5. DATA AVAILABILITYJWST data are publicly available from the Space Telescope Science Institute's Mikulski Archive for Space Telescopes https://mast.stsci.edu/. The observations produced by the JWST 1731 observation program can be accessed via DOI at 10.17909/xmzs-f849.",
+      "type": "figure"
+    },
+    {
+      "id": "fig_11",
+      "caption": "Figure 12. Relative normalized reflectance spectrum of Psyche near 1.34-\u00b5m. Binned spectra are binned to 1 nm.",
+      "type": "figure"
+    },
+    {
+      "id": "fig_12",
+      "caption": "Figure 13. Relative normalized reflectance spectrum of Psyche near 1.59-\u00b5m. Binned spectra are binned to 10 nm.",
+      "type": "figure"
+    },
+    {
+      "id": "fig_13",
+      "caption": "Figure 14. Relative normalized reflectance spectrum of Psyche near 2.67-\u00b5m. (Top) observation 1 (Bottom) observation 2. Binned spectra are binned to 1 nm.",
+      "type": "figure"
+    },
+    {
+      "id": "fig_14",
+      "caption": "Figure 15. Relative normalized reflectance spectrum of Psyche near 4.8-\u00b5m. (Top) observation 1 (Bottom) observation 2. Binned spectra are binned to 20 nm.",
+      "type": "figure"
+    },
+    {
+      "id": "fig_15",
+      "caption": "Figure 16. Relative normalized emission spectrum of asteroid (16) Psyche produced by dividing the MIRI channel 1 flux by a 2nd-order polynomial masking the region 5.9 -6.1 \u00b5m and beyond 6.33 \u00b5m for (Top) observation 1 (Bottom) observation 2. The data are binned to a resolution of 20 nm.",
+      "type": "figure"
+    },
+    {
+      "id": "fig_16",
+      "caption": "Figure 17. Relative normalized emission spectrum of asteroid (16) Psyche produced by dividing the MIRI channel 1 flux by a 2nd-order polynomial masking the region 5.9 -6.1 \u00b5m and beyond 6.33 \u00b5m for (Top) observation 1 (Bottom) observation 2. The data are binned to a resolution of 20 nm.",
+      "type": "figure"
+    },
+    {
+      "id": "tab_0",
+      "caption": "3-\u00b5m feature property estimates for each NIRSpec observation using centroid and Gaussian fit methods applied to the data for each observation and for observation 1 the sharp feature between 2.87 and 2.91 \u00b5m removed.",
+      "type": "figure"
+    },
+    {
+      "id": "tab_1",
+      "caption": "Properties of additional infrared absorption features detected on Psyche.",
+      "type": "figure"
+    }
+  ],
+  "tei_tables": [
+    {
+      "id": "unknown",
+      "caption": "No caption",
+      "type": "table",
+      "content": [
+        [
+          "NIRSpec Observation Method",
+          "Band Center (\u00b5m) Band Depth (%)"
+        ],
+        [
+          "1",
+          "Centroid",
+          "2.89",
+          "4.3 \u00b1 0.3"
+        ],
+        [
+          "",
+          "Centroid with central spike removed 2.89",
+          "4.4 \u00b1 0.3"
+        ],
+        [
+          "",
+          "Gaussian",
+          "2.92",
+          "4.5 \u00b1 0.2"
+        ],
+        [
+          "",
+          "Gaussian with central spike removed 2.98",
+          "4.9 \u00b1 0.2"
+        ],
+        [
+          "",
+          "Minimum of binned",
+          "2.86",
+          "5.1 \u00b1 0.3"
+        ],
+        [
+          "2",
+          "Centroid",
+          "2.90",
+          "4.9 \u00b1 0.4"
+        ],
+        [
+          "",
+          "Gaussian",
+          "2.96",
+          "5.8 \u00b1 0.2"
+        ],
+        [
+          "",
+          "Minimum of binned",
+          "2.95",
+          "6.0 \u00b1 0.4"
+        ]
+      ]
+    },
+    {
+      "id": "unknown",
+      "caption": "No caption",
+      "type": "table",
+      "content": [
+        [
+          "Band Center (\u00b5m) Instrument Observation Band Depth (%) FWHM (\u00b5m)"
+        ],
+        [
+          "1.25 \u00b1 0.00",
+          "NIRSpec",
+          "2",
+          "4.3 \u00b1 0.9",
+          "0.004 \u00b1 0.00"
+        ],
+        [
+          "1.28 \u00b1 0.00",
+          "NIRSpec",
+          "2",
+          "5.6 \u00b1 0.5",
+          "0.009 \u00b1 0.000"
+        ],
+        [
+          "1.34 \u00b1 0.00",
+          "NIRSpec",
+          "2",
+          "6.3 \u00b1 0.2",
+          "0.023 \u00b1 0.001"
+        ],
+        [
+          "1.59 \u00b1 0.00",
+          "NIRSpec",
+          "1",
+          "2.3 \u00b1 0.2",
+          "0.059 \u00b1 0.002"
+        ],
+        [
+          "2.67 \u00b1 0.00",
+          "NIRSpec",
+          "1",
+          "2.6 \u00b1 0.2",
+          "0.013 \u00b1 0.000"
+        ],
+        [
+          "2.67 \u00b1 0.00",
+          "NIRSpec",
+          "2",
+          "2.9 \u00b1 0.1",
+          "0.008 \u00b1 0.001"
+        ],
+        [
+          "4.84 \u00b1 0.01",
+          "NIRSpec",
+          "1",
+          "2.8 \u00b1 0.2",
+          "0.331 \u00b1 0.014"
+        ],
+        [
+          "4.81 \u00b1 0.02",
+          "NIRSpec",
+          "2",
+          "2.0 \u00b1 0.2",
+          "0.443 \u00b1 0.025"
+        ],
+        [
+          "5.74 \u00b1 0.00",
+          "MIRI",
+          "1",
+          "1.1 \u00b1 0.4",
+          "0.048 \u00b1 0.003"
+        ],
+        [
+          "5.75 \u00b1 0.00",
+          "MIRI",
+          "2",
+          "0.7 \u00b1 0.4",
+          "0.034 \u00b1 0.003"
+        ],
+        [
+          "5.93 \u00b1 0.00",
+          "MIRI",
+          "1",
+          "0.9 \u00b1 0.4",
+          "0.067 \u00b1 0.004"
+        ],
+        [
+          "5.98 \u00b1 0.00",
+          "MIRI",
+          "2",
+          "0.6 \u00b1 0.4",
+          "0.105 \u00b1 0.009"
+        ]
+      ]
+    }
+  ],
+  "pdffigures2": []
+}

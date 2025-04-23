@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. n is the sequence length, d is the representation dimension, k is the kernel size of convolutions and r the size of the neighborhood in restricted self-attention.",
+  "captionBoundary": {
+    "x1": 107.69100189208984,
+    "x2": 504.0035705566406,
+    "y1": 72.7525405883789,
+    "y2": 100.572998046875
+  },
+  "figType": "Table",
+  "imageText": ["Self-Attention", "O(n2", "·", "d)", "O(1)", "O(1)", "Recurrent", "O(n", "·", "d2)", "O(n)", "O(n)", "Convolutional", "O(k", "·", "n", "·", "d2)", "O(1)", "O(logk(n))", "Self-Attention", "(restricted)", "O(r", "·", "n", "·", "d)", "O(1)", "O(n/r)", "Layer", "Type", "Complexity", "per", "Layer", "Sequential", "Maximum", "Path", "Length", "Operations"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 117.6,
+    "x2": 494.4,
+    "y1": 112.32,
+    "y2": 187.2
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/1706.03762v7_figures/fig_1706.03762v7-1706.03762v7-Table1-1.png"
+}, {
+  "caption": "Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks.",
+  "captionBoundary": {
+    "x1": 108.0,
+    "x2": 504.0014953613281,
+    "y1": 603.9515380859375,
+    "y2": 631.7730102539062
+  },
+  "figType": "Figure",
+  "imageText": ["t", "w", "e", "ar", "e", "m", "is", "si", "ng", ",", "in", "m", "y", "op", "in", "io", "n", ".", "<E", "O", "S", ">", "<p", "ad", ">", "w", "ha", "ld", "be", "ju", "st", "-", "th", "is", "is", "sh", "ou", "io", "n", "ic", "at", "ap", "pl", "ct", ",", "bu", "t", "its", "pe", "rfe", "r", "be", "ne", "ve", "Th", "e", "La", "w", "w", "ill", ">", "<p", "ad", "S", ">", ".", "<E", "O", "io", "n", ",", "in", "m", "y", "op", "in", "si", "ng", "sh", "ou", "ld", "be", "ju", "st", "-", "th", "is", "is", "w", "ha", "t", "w", "e", "ar", "e", "m", "is", "io", "n", "ic", "at", ",", "bu", "t", "its", "ap", "pl", "rfe", "ct", "Th", "e", "La", "w", "w", "ill", "ne", "ve", "r", "be", "pe", "t", "w", "e", "ar", "e", "m", "is", "si", "ng", ",", "in", "m", "y", "op", "in", "io", "n", ".", "<E", "O", "S", ">", "<p", "ad", ">", "Input-Input", "Layer5", "w", "ha", "ld", "be", "ju", "st", "-", "th", "is", "is", "sh", "ou", "io", "n", "ic", "at", "ap", "pl", "ct", ",", "bu", "t", "its", "pe", "rfe", "r", "be", "ne", "ve", "Th", "e", "La", "w", "w", "ill", "Input-Input", "Layer5", "Th", "e", "La", "w", "w", "ill", "ne", "ve", "r", "be", "pe", "rfe", "ct", ",", "bu", "t", "its", "ap", "pl", "ic", "at", "io", "n", "sh", "ou", "ld", "be", "ju", "st", "-", "th", "is", "is", "w", "ha", "t", "w", "e", "ar", "e", "m", "is", "si", "ng", ",", "in", "m", "y", "op", "in", "io", "n", ".", "<E", "O", "S", ">", "<p", "ad", ">"],
+  "name": "5",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 106.56,
+    "x2": 500.15999999999997,
+    "y1": 115.67999999999999,
+    "y2": 593.28
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/1706.03762v7_figures/fig_1706.03762v7-1706.03762v7-Figure5-1.png"
+}, {
+  "caption": "Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section 23 of WSJ)",
+  "captionBoundary": {
+    "x1": 107.69100189208984,
+    "x2": 503.99505615234375,
+    "y1": 72.7525405883789,
+    "y2": 89.66400146484375
+  },
+  "figType": "Table",
+  "imageText": ["Luong", "et", "al.", "(2015)", "[23]", "multi-task", "93.0", "Dyer", "et", "al.", "(2016)", "[8]", "generative", "93.3", "Petrov", "et", "al.", "(2006)", "[29]", "WSJ", "only,", "discriminative", "90.4", "Zhu", "et", "al.", "(2013)", "[40]", "WSJ", "only,", "discriminative", "90.4", "Dyer", "et", "al.", "(2016)", "[8]", "WSJ", "only,", "discriminative", "91.7", "Transformer", "(4", "layers)", "WSJ", "only,", "discriminative", "91.3", "Zhu", "et", "al.", "(2013)", "[40]", "semi-supervised", "91.3", "Huang", "&", "Harper", "(2009)", "[14]", "semi-supervised", "91.3", "McClosky", "et", "al.", "(2006)", "[26]", "semi-supervised", "92.1", "Vinyals", "&", "Kaiser", "el", "al.", "(2014)", "[37]", "semi-supervised", "92.1", "Transformer", "(4", "layers)", "semi-supervised", "92.7", "Parser", "Training", "WSJ", "23", "F1", "Vinyals", "&", "Kaiser", "el", "al.", "(2014)", "[37]", "WSJ", "only,", "discriminative", "88.3"],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 144.96,
+    "x2": 467.03999999999996,
+    "y1": 92.64,
+    "y2": 237.12
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/1706.03762v7_figures/fig_1706.03762v7-1706.03762v7-Table4-1.png"
+}, {
+  "caption": "Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word ‘its’ for attention heads 5 and 6. Note that the attentions are very sharp for this word.",
+  "captionBoundary": {
+    "x1": 108.0,
+    "x2": 505.3879699707031,
+    "y1": 615.8345947265625,
+    "y2": 643.655029296875
+  },
+  "figType": "Figure",
+  "imageText": ["t", "w", "e", "ar", "e", "m", "is", "si", "ng", ",", "in", "m", "y", "op", "in", "io", "n", ".", "<E", "O", "S", ">", "<p", "ad", ">", "w", "ha", "ld", "be", "ju", "st", "-", "th", "is", "is", "sh", "ou", "io", "n", "ic", "at", "ap", "pl", "ct", ",", "bu", "t", "its", "pe", "rfe", "r", "be", "ne", "ve", "Th", "e", "La", "w", "w", "ill", ">", "<p", "ad", "S", ">", ".", "<E", "O", "io", "n", ",", "in", "m", "y", "op", "in", "si", "ng", "sh", "ou", "ld", "be", "ju", "st", "-", "th", "is", "is", "w", "ha", "t", "w", "e", "ar", "e", "m", "is", "io", "n", "ic", "at", ",", "bu", "t", "its", "ap", "pl", "rfe", "ct", "Th", "e", "La", "w", "w", "ill", "ne", "ve", "r", "be", "pe", "t", "w", "e", "ar", "e", "m", "is", "si", "ng", ",", "in", "m", "y", "op", "in", "io", "n", ".", "<E", "O", "S", ">", "<p", "ad", ">", "Input-Input", "Layer5", "w", "ha", "ld", "be", "ju", "st", "-", "th", "is", "is", "sh", "ou", "io", "n", "ic", "at", "ap", "pl", "ct", ",", "bu", "t", "its", "pe", "rfe", "r", "be", "ne", "ve", "Th", "e", "La", "w", "w", "ill", "Input-Input", "Layer5", "Th", "e", "La", "w", "w", "ill", "ne", "ve", "r", "be", "pe", "rfe", "ct", ",", "bu", "t", "its", "ap", "pl", "ic", "at", "io", "n", "sh", "ou", "ld", "be", "ju", "st", "-", "th", "is", "is", "w", "ha", "t", "w", "e", "ar", "e", "m", "is", "si", "ng", ",", "in", "m", "y", "op", "in", "io", "n", ".", "<E", "O", "S", ">", "<p", "ad", ">"],
+  "name": "4",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 108.0,
+    "x2": 504.0,
+    "y1": 101.75999999999999,
+    "y2": 604.3199999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/1706.03762v7_figures/fig_1706.03762v7-1706.03762v7-Figure4-1.png"
+}, {
+  "caption": "Figure 1: The Transformer - model architecture.",
+  "captionBoundary": {
+    "x1": 210.01100158691406,
+    "x2": 401.99029541015625,
+    "y1": 406.29852294921875,
+    "y2": 412.3009948730469
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 195.84,
+    "x2": 416.15999999999997,
+    "y1": 72.0,
+    "y2": 395.03999999999996
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/1706.03762v7_figures/fig_1706.03762v7-1706.03762v7-Figure1-1.png"
+}, {
+  "caption": "Figure 3: An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb ‘making’, completing the phrase ‘making...more difficult’. Attentions here shown only for the word ‘making’. Different colors represent different heads. Best viewed in color.",
+  "captionBoundary": {
+    "x1": 108.0,
+    "x2": 504.17120361328125,
+    "y1": 313.93951416015625,
+    "y2": 352.6700134277344
+  },
+  "figType": "Figure",
+  "imageText": ["er", "ic", "an", "go", "ve", "rn", "m", "en", "ts", "ha", "ve", "pa", "ss", "ed", "ne", "w", "la", "w", "s", "si", "nc", "e", "20", "09", "m", "ak", "in", "g", "th", "e", "re", "gi", "st", "ra", "tio", "n", "or", "vo", "tin", "g", "pr", "oc", "es", "s", "m", "or", "e", "di", "ffi", "cu", "lt", ".", "<E", "O", "S", ">", "<p", "ad", ">", "<p", "ad", ">", "<p", "ad", ">", "<p", "ad", ">", "<p", "ad", ">", "<p", "ad", ">", "A", "m", "or", "ity", "of", "m", "aj", "It", "is", "in", "th", "is", "sp", "iri", "t", "th", "at", "a", "ra", "tio", "n", "or", "vo", "tin", "g", "pr", "oc", "es", "s", "m", "or", "e", "di", "ffi", "cu", "lt", ".", "<E", "O", "S", ">", "<p", "ad", ">", "<p", "ad", ">", "<p", "ad", ">", "<p", "ad", ">", "<p", "ad", ">", "<p", "ad", ">", "ha", "ve", "pa", "ss", "ed", "ne", "w", "la", "w", "s", "si", "nc", "e", "20", "09", "m", "ak", "in", "g", "th", "e", "re", "gi", "st", "en", "ts", "rn", "m", "go", "ve", "ic", "an", "It", "is", "in", "th", "is", "sp", "iri", "t", "th", "at", "a", "m", "aj", "or", "ity", "of", "A", "m", "er"],
+  "name": "3",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 118.56,
+    "x2": 505.44,
+    "y1": 99.84,
+    "y2": 303.36
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/1706.03762v7_figures/fig_1706.03762v7-1706.03762v7-Figure3-1.png"
+}, {
+  "caption": "Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost.",
+  "captionBoundary": {
+    "x1": 107.69100189208984,
+    "x2": 504.00311279296875,
+    "y1": 72.7525405883789,
+    "y2": 89.66400146484375
+  },
+  "figType": "Table",
+  "imageText": ["Model", "BLEU", "Training", "Cost", "(FLOPs)", "EN-DE", "EN-FR", "EN-DE", "EN-FR", "ByteNet", "[18]", "23.75", "Deep-Att", "+", "PosUnk", "[39]", "39.2", "1.0", "·", "1020", "GNMT", "+", "RL", "[38]", "24.6", "39.92", "2.3", "·", "1019", "1.4", "·", "1020", "ConvS2S", "[9]", "25.16", "40.46", "9.6", "·", "1018", "1.5", "·", "1020", "MoE", "[32]", "26.03", "40.56", "2.0", "·", "1019", "1.2", "·", "1020", "Deep-Att", "+", "PosUnk", "Ensemble", "[39]", "40.4", "8.0", "·", "1020", "GNMT", "+", "RL", "Ensemble", "[38]", "26.30", "41.16", "1.8", "·", "1020", "1.1", "·", "1021", "ConvS2S", "Ensemble", "[9]", "26.36", "41.29", "7.7", "·", "1019", "1.2", "·", "1021", "Transformer", "(base", "model)", "27.3", "38.1", "3.3", "·", "1018", "Transformer", "(big)", "28.4", "41.8", "2.3", "·", "1019"],
+  "name": "2",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 129.6,
+    "x2": 482.4,
+    "y1": 93.6,
+    "y2": 244.32
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/1706.03762v7_figures/fig_1706.03762v7-1706.03762v7-Table2-1.png"
+}, {
+  "caption": "Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel.",
+  "captionBoundary": {
+    "x1": 108.0,
+    "x2": 503.9972229003906,
+    "y1": 276.01654052734375,
+    "y2": 292.9280090332031
+  },
+  "figType": "Figure",
+  "imageText": ["Scaled", "Dot-Product", "Attention", "Multi-Head", "Attention"],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 147.35999999999999,
+    "x2": 468.47999999999996,
+    "y1": 71.52,
+    "y2": 268.32
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/1706.03762v7_figures/fig_1706.03762v7-1706.03762v7-Figure2-1.png"
+}, {
+  "caption": "Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013. Listed perplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to per-word perplexities.",
+  "captionBoundary": {
+    "x1": 107.69100189208984,
+    "x2": 504.0033264160156,
+    "y1": 72.7525405883789,
+    "y2": 111.48199462890625
+  },
+  "figType": "Table",
+  "imageText": ["(E)", "positional", "embedding", "instead", "of", "sinusoids", "4.92", "25.7", "big", "6", "1024", "4096", "16", "0.3", "300K", "4.33", "26.4", "213", "0.0", "4.67", "25.3", "0.2", "5.47", "25.7", "0.0", "5.77", "24.6", "0.2", "4.95", "25.5", "(D)", "1024", "5.12", "25.4", "53", "4096", "4.75", "26.2", "90", "256", "32", "32", "5.75", "24.5", "28", "1024", "128", "128", "4.66", "26.0", "168", "2", "6.11", "23.7", "36", "4", "5.19", "25.3", "50", "8", "4.88", "25.5", "80", "(C)", "(B)", "16", "5.16", "25.1", "58", "32", "5.01", "25.4", "60", "1", "512", "512", "5.29", "24.9", "4", "128", "128", "5.00", "25.5", "16", "32", "32", "4.91", "25.8", "32", "16", "16", "5.01", "25.4", "(A)", "base", "6", "512", "2048", "8", "64", "64", "0.1", "0.1", "100K", "4.92", "25.8", "65", "N", "dmodel", "dff", "h", "dk", "dv", "Pdrop", "ϵls", "train", "PPL", "BLEU", "params", "steps", "(dev)", "(dev)", "×106"],
+  "name": "3",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 107.52,
+    "x2": 509.28,
+    "y1": 128.64,
+    "y2": 385.44
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/1706.03762v7_figures/fig_1706.03762v7-1706.03762v7-Table3-1.png"
+}]

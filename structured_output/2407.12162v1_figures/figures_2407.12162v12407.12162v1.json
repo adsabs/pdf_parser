@@ -1,0 +1,381 @@
+[{
+  "caption": "Figure 2. Spectral energy distribution of Psyche obtained from NIRSpec and MIRI instruments prior to removal of the solar spectrum and thermal emission to create a reflectance spectrum. Average resolution is ∼0.001 µm for the NIRSpec observations and ∼0.002 µm for the MIRI observations, corresponding to a factor of ∼25x (AKARI) and ∼60x (Spitzer) increased resolution compared to previous space telescope infrared observations of Psyche. For each instrument, observation 1 is in black and observation 2 is in red.",
+  "captionBoundary": {
+    "x1": 50.739990234375,
+    "x2": 561.9425048828125,
+    "y1": 414.6466369628906,
+    "y2": 475.6400146484375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 562.0799999999999,
+    "y1": 61.919999999999995,
+    "y2": 403.2
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure2-1.png"
+}, {
+  "caption": "Figure 12. Relative normalized reflectance spectrum of Psyche near 1.34-µm. Binned spectra are binned to 1 nm.",
+  "captionBoundary": {
+    "x1": 50.739990234375,
+    "x2": 561.9434204101562,
+    "y1": 244.2386016845703,
+    "y2": 264.583984375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "12",
+  "page": 24,
+  "regionBoundary": {
+    "x1": 177.6,
+    "x2": 435.35999999999996,
+    "y1": 61.919999999999995,
+    "y2": 233.28
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure12-1.png"
+}, {
+  "caption": "Figure 13. Relative normalized reflectance spectrum of Psyche near 1.59-µm. Binned spectra are binned to 10 nm.",
+  "captionBoundary": {
+    "x1": 50.739990234375,
+    "x2": 561.9434204101562,
+    "y1": 459.6666564941406,
+    "y2": 480.01300048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "13",
+  "page": 24,
+  "regionBoundary": {
+    "x1": 177.6,
+    "x2": 435.35999999999996,
+    "y1": 276.96,
+    "y2": 448.32
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure13-1.png"
+}, {
+  "caption": "Figure 14. Relative normalized reflectance spectrum of Psyche near 2.67-µm. (Top) observation 1 (Bottom) observation 2. Binned spectra are binned to 1 nm.",
+  "captionBoundary": {
+    "x1": 50.7400016784668,
+    "x2": 561.9398193359375,
+    "y1": 415.63165283203125,
+    "y2": 435.9779968261719
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "14",
+  "page": 25,
+  "regionBoundary": {
+    "x1": 177.6,
+    "x2": 435.35999999999996,
+    "y1": 61.919999999999995,
+    "y2": 404.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure14-1.png"
+}, {
+  "caption": "Figure 7. Normalized reflectance spectrum of Psyche near 3-µm from observation 1 (black), observation 2 (red), normalized reflectance spectra for laboratory data from CM2- (magenta), CH/CBb- (blue), and CY-type (cyan) carbonaceous chondrites. The 3-µm feature on Psyche most closely resembles CBb-type chondrites.",
+  "captionBoundary": {
+    "x1": 50.7400016784668,
+    "x2": 561.9468383789062,
+    "y1": 329.4366455078125,
+    "y2": 376.8810119628906
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 14,
+  "regionBoundary": {
+    "x1": 113.75999999999999,
+    "x2": 499.2,
+    "y1": 61.919999999999995,
+    "y2": 318.24
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure7-1.png"
+}, {
+  "caption": "Figure 17. Relative normalized emission spectrum of asteroid (16) Psyche produced by dividing the MIRI channel 1 flux by a 2nd-order polynomial masking the region 5.9 - 6.1 µm and beyond 6.33 µm for (Top) observation 1 (Bottom) observation 2. The data are binned to a resolution of 20 nm.",
+  "captionBoundary": {
+    "x1": 50.739990234375,
+    "x2": 561.9406127929688,
+    "y1": 415.63165283203125,
+    "y2": 449.5270080566406
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "17",
+  "page": 28,
+  "regionBoundary": {
+    "x1": 175.68,
+    "x2": 435.35999999999996,
+    "y1": 61.919999999999995,
+    "y2": 404.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure17-1.png"
+}, {
+  "caption": "Figure 4. Psyche’s reflectance spectra from JWST NIRSpec observations. The data in black correspond to observation 1 and in red to observation 2. The darker points correspond to the binned data used to assess spectral feature properties. We omitted observation 1 G235H/F170LP mode data beyond 2.9 µm due to likely instrumental contamination.",
+  "captionBoundary": {
+    "x1": 50.739990234375,
+    "x2": 561.9458618164062,
+    "y1": 585.0496215820312,
+    "y2": 632.4940185546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 562.0799999999999,
+    "y1": 61.919999999999995,
+    "y2": 574.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure4-1.png"
+}, {
+  "caption": "Figure 6. Relative normalized reflectance spectrum of Psyche near 3-µm for NIRSpec observation 1 (black) observation 2 (red) and IRTF from Takir et al. (2017) (blue).",
+  "captionBoundary": {
+    "x1": 50.7400016784668,
+    "x2": 561.9390258789062,
+    "y1": 332.45263671875,
+    "y2": 352.7980041503906
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 13,
+  "regionBoundary": {
+    "x1": 113.75999999999999,
+    "x2": 499.2,
+    "y1": 61.919999999999995,
+    "y2": 321.12
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure6-1.png"
+}, {
+  "caption": "Figure 16. Relative normalized emission spectrum of asteroid (16) Psyche produced by dividing the MIRI channel 1 flux by a 2nd-order polynomial masking the region 5.9 - 6.1 µm and beyond 6.33 µm for (Top) observation 1 (Bottom) observation 2. The data are binned to a resolution of 20 nm.",
+  "captionBoundary": {
+    "x1": 50.739990234375,
+    "x2": 561.9406127929688,
+    "y1": 415.63165283203125,
+    "y2": 449.5270080566406
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "16",
+  "page": 27,
+  "regionBoundary": {
+    "x1": 177.6,
+    "x2": 435.35999999999996,
+    "y1": 61.919999999999995,
+    "y2": 404.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure16-1.png"
+}, {
+  "caption": "Table 1. 3-µm feature property estimates for each NIRSpec observation using centroid and Gaussian fit methods applied to the data for each observation and for observation 1 the sharp feature between 2.87 and 2.91 µm removed.",
+  "captionBoundary": {
+    "x1": 50.73998260498047,
+    "x2": 561.945556640625,
+    "y1": 305.9263000488281,
+    "y2": 339.8216552734375
+  },
+  "figType": "Table",
+  "imageText": ["2", "Centroid", "2.90", "4.9", "±", "0.4", "Gaussian", "2.96", "5.8", "±", "0.2", "Minimum", "of", "binned", "2.95", "6.0", "±", "0.4", "Centroid", "with", "central", "spike", "removed", "2.89", "4.4", "±", "0.3", "Gaussian", "2.92", "4.5", "±", "0.2", "Gaussian", "with", "central", "spike", "removed", "2.98", "4.9", "±", "0.2", "Minimum", "of", "binned", "2.86", "5.1", "±", "0.3", "NIRSpec", "Observation", "Method", "Band", "Center", "(µm)", "Band", "Depth", "(%)", "1", "Centroid", "2.89", "4.3", "±", "0.3"],
+  "name": "1",
+  "page": 12,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 577.4399999999999,
+    "y1": 357.59999999999997,
+    "y2": 500.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Table1-1.png"
+}, {
+  "caption": "Figure 3. Psyche’s reflectance spectra from JWST NIRSpec observations. The data in black correspond to observation 1 and in red to observation 2. We omitted observation 1 G235H/F170LP mode data beyond 2.9 µm due to likely instrumental contamination.",
+  "captionBoundary": {
+    "x1": 50.7400016784668,
+    "x2": 561.9459228515625,
+    "y1": 459.5366516113281,
+    "y2": 493.4320068359375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 562.0799999999999,
+    "y1": 105.6,
+    "y2": 448.32
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure3-1.png"
+}, {
+  "caption": "Table 2. Properties of additional infrared absorption features detected on Psyche.",
+  "captionBoundary": {
+    "x1": 107.07209014892578,
+    "x2": 500.78607177734375,
+    "y1": 386.44744873046875,
+    "y2": 393.2438049316406
+  },
+  "figType": "Table",
+  "imageText": ["Band", "Center", "(µm)", "Instrument", "Observation", "Band", "Depth", "(%)", "FWHM", "(µm)", "1.25", "±", "0.00", "NIRSpec", "2", "4.3", "±", "0.9", "0.004", "±", "0.00", "1.28", "±", "0.00", "NIRSpec", "2", "5.6", "±", "0.5", "0.009", "±", "0.000", "1.34", "±", "0.00", "NIRSpec", "2", "6.3", "±", "0.2", "0.023", "±", "0.001", "1.59", "±", "0.00", "NIRSpec", "1", "2.3", "±", "0.2", "0.059", "±", "0.002", "2.67", "±", "0.00", "NIRSpec", "1", "2.6", "±", "0.2", "0.013", "±", "0.000", "2.67", "±", "0.00", "NIRSpec", "2", "2.9", "±", "0.1", "0.008", "±", "0.001", "4.84", "±", "0.01", "NIRSpec", "1", "2.8", "±", "0.2", "0.331", "±", "0.014", "4.81", "±", "0.02", "NIRSpec", "2", "2.0", "±", "0.2", "0.443", "±", "0.025", "5.74", "±", "0.00", "MIRI", "1", "1.1", "±", "0.4", "0.048", "±", "0.003", "5.75", "±", "0.00", "MIRI", "2", "0.7", "±", "0.4", "0.034", "±", "0.003", "5.93", "±", "0.00", "MIRI", "1", "0.9", "±", "0.4", "0.067", "±", "0.004", "5.98", "±", "0.00", "MIRI", "2", "0.6", "±", "0.4", "0.105", "±", "0.009"],
+  "name": "2",
+  "page": 18,
+  "regionBoundary": {
+    "x1": 114.72,
+    "x2": 559.1999999999999,
+    "y1": 399.84,
+    "y2": 608.16
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Table2-1.png"
+}, {
+  "caption": "Figure 9. Relative normalized emission spectrum of asteroid (16) Psyche produced by dividing the MIRI channel 1 flux by the TPM then dividing by a linear fit for (Top) observation 1 (Bottom) observation 2. The data are binned to a resolution of 20 nm. We do not detect any 6-µm emission feature in either observation.",
+  "captionBoundary": {
+    "x1": 50.739959716796875,
+    "x2": 561.9469604492188,
+    "y1": 665.5405883789062,
+    "y2": 712.9849853515625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 16,
+  "regionBoundary": {
+    "x1": 113.75999999999999,
+    "x2": 499.2,
+    "y1": 140.64,
+    "y2": 654.24
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure9-1.png"
+}, {
+  "caption": "Figure 5. Relative normalized reflectance spectrum of Psyche near 3-µm (Top) observation 1 (Bottom) observation 2.",
+  "captionBoundary": {
+    "x1": 50.739990234375,
+    "x2": 561.9388427734375,
+    "y1": 756.4495849609375,
+    "y2": 776.7949829101562
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 11,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 562.0799999999999,
+    "y1": 61.919999999999995,
+    "y2": 745.4399999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure5-1.png"
+}, {
+  "caption": "Figure 15. Relative normalized reflectance spectrum of Psyche near 4.8-µm. (Top) observation 1 (Bottom) observation 2. Binned spectra are binned to 20 nm.",
+  "captionBoundary": {
+    "x1": 50.739990234375,
+    "x2": 561.9370727539062,
+    "y1": 415.63165283203125,
+    "y2": 435.9779968261719
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "15",
+  "page": 26,
+  "regionBoundary": {
+    "x1": 177.6,
+    "x2": 435.35999999999996,
+    "y1": 61.919999999999995,
+    "y2": 404.15999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure15-1.png"
+}, {
+  "caption": "Figure 11. Relative normalized reflectance spectrum of Psyche near 1.28-µm. Binned spectra are binned to 1 nm.",
+  "captionBoundary": {
+    "x1": 50.739990234375,
+    "x2": 561.9434204101562,
+    "y1": 559.2935791015625,
+    "y2": 579.6389770507812
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "11",
+  "page": 23,
+  "regionBoundary": {
+    "x1": 177.6,
+    "x2": 435.35999999999996,
+    "y1": 376.8,
+    "y2": 548.16
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure11-1.png"
+}, {
+  "caption": "Figure 10. Relative normalized reflectance spectrum of Psyche near 1.25-µm. Binned spectra are binned to 1 nm.",
+  "captionBoundary": {
+    "x1": 50.739990234375,
+    "x2": 561.9434204101562,
+    "y1": 324.9356384277344,
+    "y2": 345.281005859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "10",
+  "page": 23,
+  "regionBoundary": {
+    "x1": 177.6,
+    "x2": 435.35999999999996,
+    "y1": 141.6,
+    "y2": 314.4
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure10-1.png"
+}, {
+  "caption": "Figure 1. Orientation of Psyche at the time of observations (Top) NIRSpec observations (Bottom) MIRI observations. Each observation is nearly pole-on (aspect angle 24°) viewing the north pole. These figures were produced in Pyvista (Sullivan & Kaszynski 2019) using the shape model from Shepard et al. (2021).",
+  "captionBoundary": {
+    "x1": 50.739990234375,
+    "x2": 561.9406127929688,
+    "y1": 468.0916442871094,
+    "y2": 501.98602294921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 49.92,
+    "x2": 562.0799999999999,
+    "y1": 61.919999999999995,
+    "y2": 457.44
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure1-1.png"
+}, {
+  "caption": "Figure 8. Normalized reflectance spectrum of Psyche near 3-µm from observation 1 (black), normalized reflectance spectra for asteroid data from near-infrared observations of Themis (green), Pallas (cyan), Intermnia (blue), Europa (magenta), and Bamberga (red) with data points corresponding to a binned average using 25 bins and errors corresponding to the standard deviation across the bin.",
+  "captionBoundary": {
+    "x1": 50.7400016784668,
+    "x2": 561.947021484375,
+    "y1": 457.23565673828125,
+    "y2": 504.6790466308594
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 15,
+  "regionBoundary": {
+    "x1": 113.75999999999999,
+    "x2": 499.2,
+    "y1": 61.919999999999995,
+    "y2": 446.4
+  },
+  "renderDpi": 150,
+  "renderURL": "structured_output/2407.12162v1_figures/fig_2407.12162v1-2407.12162v1-Figure8-1.png"
+}]
